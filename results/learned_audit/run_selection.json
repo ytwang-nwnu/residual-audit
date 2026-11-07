@@ -1,0 +1,634 @@
+{
+  "rule": "Apply the run selection rule.\n\n    -> runs {(method, split, fold, seed): {run_dir, rows, subjects_test, commit, version}},\n       selection {selected, voided, superseded, ignored}",
+  "selected": {
+    "m3p|s1|0|0": {
+      "run": "2026-11-02_v01_m3p_s1_fold0_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|0|1": {
+      "run": "2026-11-02_v02_m3p_s1_fold0_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|0|2": {
+      "run": "2026-11-02_v03_m3p_s1_fold0_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|1|0": {
+      "run": "2026-11-02_v04_m3p_s1_fold1_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|1|1": {
+      "run": "2026-11-02_v05_m3p_s1_fold1_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|1|2": {
+      "run": "2026-11-02_v06_m3p_s1_fold1_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|2|0": {
+      "run": "2026-11-02_v07_m3p_s1_fold2_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|2|1": {
+      "run": "2026-11-02_v08_m3p_s1_fold2_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|2|2": {
+      "run": "2026-11-02_v09_m3p_s1_fold2_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m1|s2|3|2": {
+      "run": "2026-11-02_v100_m1_s2_fold3_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m2|s1|0|0": {
+      "run": "2026-11-02_v101_m2_s1_fold0_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s1|1|0": {
+      "run": "2026-11-02_v102_m2_s1_fold1_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s1|2|0": {
+      "run": "2026-11-02_v103_m2_s1_fold2_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s1|3|0": {
+      "run": "2026-11-02_v104_m2_s1_fold3_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m3p|s1|3|0": {
+      "run": "2026-11-02_v10_m3p_s1_fold3_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m2|s2|0|0": {
+      "run": "2026-11-02_v111_m2_s2_fold0_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s2|1|0": {
+      "run": "2026-11-02_v112_m2_s2_fold1_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s2|2|0": {
+      "run": "2026-11-02_v113_m2_s2_fold2_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m2|s2|3|0": {
+      "run": "2026-11-02_v114_m2_s2_fold3_seed0",
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4"
+    },
+    "m3p|s1|3|1": {
+      "run": "2026-11-02_v11_m3p_s1_fold3_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s1|3|2": {
+      "run": "2026-11-02_v12_m3p_s1_fold3_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|0|0": {
+      "run": "2026-11-02_v13_m3p_s2_fold0_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|0|1": {
+      "run": "2026-11-02_v14_m3p_s2_fold0_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|0|2": {
+      "run": "2026-11-02_v15_m3p_s2_fold0_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|1|0": {
+      "run": "2026-11-02_v16_m3p_s2_fold1_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|1|1": {
+      "run": "2026-11-02_v17_m3p_s2_fold1_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|1|2": {
+      "run": "2026-11-02_v18_m3p_s2_fold1_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|2|0": {
+      "run": "2026-11-02_v19_m3p_s2_fold2_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|2|1": {
+      "run": "2026-11-02_v20_m3p_s2_fold2_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|2|2": {
+      "run": "2026-11-02_v21_m3p_s2_fold2_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|3|0": {
+      "run": "2026-11-02_v22_m3p_s2_fold3_seed0",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|3|1": {
+      "run": "2026-11-02_v23_m3p_s2_fold3_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m3p|s2|3|2": {
+      "run": "2026-11-02_v24_m3p_s2_fold3_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+    },
+    "m1|s0|3|0": {
+      "run": "2026-11-02_v74_m1_s0_fold3_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s0|3|1": {
+      "run": "2026-11-02_v75_m1_s0_fold3_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s0|3|2": {
+      "run": "2026-11-02_v76_m1_s0_fold3_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|0|0": {
+      "run": "2026-11-02_v77_m1_s1_fold0_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|0|1": {
+      "run": "2026-11-02_v78_m1_s1_fold0_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|0|2": {
+      "run": "2026-11-02_v79_m1_s1_fold0_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|1|0": {
+      "run": "2026-11-02_v80_m1_s1_fold1_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|1|1": {
+      "run": "2026-11-02_v81_m1_s1_fold1_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|1|2": {
+      "run": "2026-11-02_v82_m1_s1_fold1_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|2|0": {
+      "run": "2026-11-02_v83_m1_s1_fold2_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|2|1": {
+      "run": "2026-11-02_v84_m1_s1_fold2_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|2|2": {
+      "run": "2026-11-02_v85_m1_s1_fold2_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|3|0": {
+      "run": "2026-11-02_v86_m1_s1_fold3_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|3|1": {
+      "run": "2026-11-02_v87_m1_s1_fold3_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s1|3|2": {
+      "run": "2026-11-02_v88_m1_s1_fold3_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|0|0": {
+      "run": "2026-11-02_v89_m1_s2_fold0_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|0|1": {
+      "run": "2026-11-02_v90_m1_s2_fold0_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|0|2": {
+      "run": "2026-11-02_v91_m1_s2_fold0_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|1|0": {
+      "run": "2026-11-02_v92_m1_s2_fold1_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|1|1": {
+      "run": "2026-11-02_v93_m1_s2_fold1_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|1|2": {
+      "run": "2026-11-02_v94_m1_s2_fold1_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|2|0": {
+      "run": "2026-11-02_v95_m1_s2_fold2_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|2|1": {
+      "run": "2026-11-02_v96_m1_s2_fold2_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|2|2": {
+      "run": "2026-11-02_v97_m1_s2_fold2_seed2",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|3|0": {
+      "run": "2026-11-02_v98_m1_s2_fold3_seed0",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    },
+    "m1|s2|3|1": {
+      "run": "2026-11-02_v99_m1_s2_fold3_seed1",
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935"
+    }
+  },
+  "voided": [
+    {
+      "run": "2026-11-02_v01_m1_s0_fold3_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v02_m1_s0_fold3_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v03_m1_s0_fold3_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v04_m1_s1_fold0_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v05_m1_s1_fold0_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v06_m1_s1_fold0_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v07_m1_s1_fold1_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v08_m1_s1_fold1_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v09_m1_s1_fold1_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v10_m1_s1_fold2_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v11_m1_s1_fold2_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v12_m1_s1_fold2_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v13_m1_s1_fold3_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v14_m1_s1_fold3_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v15_m1_s1_fold3_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v16_m1_s2_fold0_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v17_m1_s2_fold0_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v18_m1_s2_fold0_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v19_m1_s2_fold1_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v20_m1_s2_fold1_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v21_m1_s2_fold1_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v22_m1_s2_fold2_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v23_m1_s2_fold2_seed1",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v24_m1_s2_fold2_seed2",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v25_m1_s2_fold3_seed0",
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v26_m1_s2_fold3_seed1",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v27_m1_s2_fold3_seed2",
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v28_m1_s0_fold3_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v29_m1_s0_fold3_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v30_m1_s0_fold3_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v31_m1_s1_fold0_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v32_m1_s1_fold0_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v33_m1_s1_fold0_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v34_m1_s1_fold1_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v35_m1_s1_fold1_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v36_m1_s1_fold1_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v37_m1_s1_fold2_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v38_m1_s1_fold2_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v39_m1_s1_fold2_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v40_m1_s1_fold3_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v41_m1_s1_fold3_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v42_m1_s1_fold3_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v43_m1_s2_fold0_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v44_m1_s2_fold0_seed1",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v45_m1_s2_fold0_seed2",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v46_m1_s2_fold1_seed0",
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v47_m1_s0_fold3_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v48_m1_s0_fold3_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v49_m1_s0_fold3_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v50_m1_s1_fold0_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v51_m1_s1_fold0_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v52_m1_s1_fold0_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v53_m1_s1_fold1_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v54_m1_s1_fold1_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v55_m1_s1_fold1_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v56_m1_s1_fold2_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v57_m1_s1_fold2_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v58_m1_s1_fold2_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v59_m1_s1_fold3_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v60_m1_s1_fold3_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v61_m1_s1_fold3_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v62_m1_s2_fold0_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v63_m1_s2_fold0_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v64_m1_s2_fold0_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v65_m1_s2_fold1_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v66_m1_s2_fold1_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v67_m1_s2_fold1_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v68_m1_s2_fold2_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v69_m1_s2_fold2_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v70_m1_s2_fold2_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v71_m1_s2_fold3_seed0",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v72_m1_s2_fold3_seed1",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    },
+    {
+      "run": "2026-11-02_v73_m1_s2_fold3_seed2",
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    }
+  ],
+  "superseded": [],
+  "ignored": [
+    {
+      "run": "2026-11-02_v01_m1_s1_fold0_seed0_pilot",
+      "why": "name does not match the run pattern"
+    }
+  ],
+  "void_rules": [
+    {
+      "method": "m1",
+      "commits": [
+        "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+      ],
+      "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+    },
+    {
+      "method": "m1",
+      "commits": [
+        "c9029149c57f190b6f8a4797a84bfbabb30a8b3b",
+        "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "1ec9d5b800cc43d720082408aab4288e4c10ed65"
+      ],
+      "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+    }
+  ]
+}

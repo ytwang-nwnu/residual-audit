@@ -1,0 +1,64 @@
+{
+  "exited": false,
+  "s2all_auc": {
+    "Lunges": 0.951959205582394,
+    "Plank": 0.9194805194805195,
+    "SQUAT": 0.8878048780487805
+  },
+  "H16": {
+    "satisfied": true,
+    "delta_auc_L": {
+      "Lunges": 0.26918947933440684,
+      "Plank": 0.0714285714285714,
+      "SQUAT": 0.22317073170731705
+    },
+    "thr": 0.05
+  },
+  "H17": {
+    "satisfied": false,
+    "order": {
+      "SQUAT": 0.22317073170731705,
+      "Lunges": 0.26918947933440684,
+      "Plank": 0.0714285714285714
+    }
+  },
+  "H18": {
+    "satisfied": true,
+    "qualifying_acts": [
+      "Lunges",
+      "Plank",
+      "SQUAT"
+    ],
+    "recovery_k2": {
+      "Lunges": 0.9439381499859596,
+      "Plank": 1.1806027324731594,
+      "SQUAT": 0.9958657071282258
+    },
+    "thr": 0.5
+  },
+  "H19": {
+    "satisfied": false,
+    "qualifying_acts": [],
+    "tpr_range_s1": {
+      "Lunges": 0.30000000000000004,
+      "Plank": 0.2212121212121213,
+      "SQUAT": 0.19047619047619047
+    },
+    "tpr_range_s2_all": {
+      "Lunges": 0.30000000000000004,
+      "Plank": 0.33333333333333337,
+      "SQUAT": 0.4285714285714286
+    },
+    "thr": 0.3
+  },
+  "runs_used": [
+    "2026-11-02_v101_m2_s1_fold0_seed0",
+    "2026-11-02_v102_m2_s1_fold1_seed0",
+    "2026-11-02_v103_m2_s1_fold2_seed0",
+    "2026-11-02_v104_m2_s1_fold3_seed0",
+    "2026-11-02_v111_m2_s2_fold0_seed0",
+    "2026-11-02_v112_m2_s2_fold1_seed0",
+    "2026-11-02_v113_m2_s2_fold2_seed0",
+    "2026-11-02_v114_m2_s2_fold3_seed0"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "exited": false,
+  "s2all_auc": {
+    "Lunges": 0.9736983360171766,
+    "Plank": 0.9810966810966809,
+    "SQUAT": 0.9643089430894308
+  },
+  "H16": {
+    "satisfied": true,
+    "delta_auc_L": {
+      "Lunges": 0.022991590624440856,
+      "Plank": 0.006060606060606026,
+      "SQUAT": 0.059593495934959294
+    },
+    "thr": 0.05
+  },
+  "H17": {
+    "satisfied": true,
+    "order": {
+      "SQUAT": 0.059593495934959294,
+      "Lunges": 0.022991590624440856,
+      "Plank": 0.006060606060606026
+    }
+  },
+  "H18": {
+    "satisfied": true,
+    "qualifying_acts": [
+      "SQUAT"
+    ],
+    "recovery_k2": {
+      "SQUAT": 0.8729599969050393
+    },
+    "thr": 0.5
+  },
+  "H19": {
+    "satisfied": true,
+    "qualifying_acts": [
+      "Lunges"
+    ],
+    "tpr_range_s1": {
+      "Lunges": 0.31507936507936507,
+      "Plank": 0.15555555555555553,
+      "SQUAT": 0.20634920634920637
+    },
+    "tpr_range_s2_all": {
+      "Lunges": 0.2166666666666667,
+      "Plank": 0.18148148148148147,
+      "SQUAT": 0.3841269841269841
+    },
+    "thr": 0.3
+  },
+  "runs_used": [
+    "2026-11-02_v100_m1_s2_fold3_seed2",
+    "2026-11-02_v74_m1_s0_fold3_seed0",
+    "2026-11-02_v75_m1_s0_fold3_seed1",
+    "2026-11-02_v76_m1_s0_fold3_seed2",
+    "2026-11-02_v77_m1_s1_fold0_seed0",
+    "2026-11-02_v78_m1_s1_fold0_seed1",
+    "2026-11-02_v79_m1_s1_fold0_seed2",
+    "2026-11-02_v80_m1_s1_fold1_seed0",
+    "2026-11-02_v81_m1_s1_fold1_seed1",
+    "2026-11-02_v82_m1_s1_fold1_seed2",
+    "2026-11-02_v83_m1_s1_fold2_seed0",
+    "2026-11-02_v84_m1_s1_fold2_seed1",
+    "2026-11-02_v85_m1_s1_fold2_seed2",
+    "2026-11-02_v86_m1_s1_fold3_seed0",
+    "2026-11-02_v87_m1_s1_fold3_seed1",
+    "2026-11-02_v88_m1_s1_fold3_seed2",
+    "2026-11-02_v89_m1_s2_fold0_seed0",
+    "2026-11-02_v90_m1_s2_fold0_seed1",
+    "2026-11-02_v91_m1_s2_fold0_seed2",
+    "2026-11-02_v92_m1_s2_fold1_seed0",
+    "2026-11-02_v93_m1_s2_fold1_seed1",
+    "2026-11-02_v94_m1_s2_fold1_seed2",
+    "2026-11-02_v95_m1_s2_fold2_seed0",
+    "2026-11-02_v96_m1_s2_fold2_seed1",
+    "2026-11-02_v97_m1_s2_fold2_seed2",
+    "2026-11-02_v98_m1_s2_fold3_seed0",
+    "2026-11-02_v99_m1_s2_fold3_seed1"
+  ]
+}

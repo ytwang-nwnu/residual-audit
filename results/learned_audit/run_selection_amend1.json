@@ -1,0 +1,77 @@
+{
+  "rule": "Apply the run selection rule.\n\n    -> runs {(method, split, fold, seed): {run_dir, rows, subjects_test, commit, version}},\n       selection {selected, voided, superseded, ignored}",
+  "methods": [
+    "m4",
+    "m5"
+  ],
+  "selected": {
+    "m4|s1|0|0": {
+      "run": "2026-11-03_v201_m4_s1_fold0_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s1|1|0": {
+      "run": "2026-11-03_v202_m4_s1_fold1_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s1|2|0": {
+      "run": "2026-11-03_v203_m4_s1_fold2_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s1|3|0": {
+      "run": "2026-11-03_v204_m4_s1_fold3_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s2|0|0": {
+      "run": "2026-11-03_v221_m4_s2_fold0_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s2|1|0": {
+      "run": "2026-11-03_v222_m4_s2_fold1_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s2|2|0": {
+      "run": "2026-11-03_v223_m4_s2_fold2_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m4|s2|3|0": {
+      "run": "2026-11-03_v224_m4_s2_fold3_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s1|1|0": {
+      "run": "2026-11-03_v302_m5_s1_fold1_seed0",
+      "commit": "2f496c2400273fc066d7223578b1854716557bfe"
+    },
+    "m5|s1|2|0": {
+      "run": "2026-11-03_v303_m5_s1_fold2_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s1|3|0": {
+      "run": "2026-11-03_v304_m5_s1_fold3_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s1|0|0": {
+      "run": "2026-11-03_v311_m5_s1_fold0_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s2|2|0": {
+      "run": "2026-11-03_v323_m5_s2_fold2_seed0",
+      "commit": "2f496c2400273fc066d7223578b1854716557bfe"
+    },
+    "m5|s2|3|0": {
+      "run": "2026-11-03_v324_m5_s2_fold3_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s2|0|0": {
+      "run": "2026-11-03_v331_m5_s2_fold0_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    },
+    "m5|s2|1|0": {
+      "run": "2026-11-03_v332_m5_s2_fold1_seed0",
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98"
+    }
+  },
+  "voided": [],
+  "superseded": [],
+  "ignored": [],
+  "void_rules": []
+}

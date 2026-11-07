@@ -1,0 +1,117 @@
+{
+  "H28": "不支持",
+  "H28_k1_recovery": {
+    "rd": -0.2817015963241014,
+    "rgs": -1.9035933132592242
+  },
+  "H29": "部分支持",
+  "H29_gaps_labelled_minus_unlabelled_k2": {
+    "SQUAT/positions": 1.1180963358919564,
+    "Lunges/positions": 3.544362576624033,
+    "SQUAT/bone27": 0.6920904326670959,
+    "Lunges/bone27": 1.8704891471318752,
+    "Plank/bone27": 2.960235579227782
+  },
+  "H30": "不支持",
+  "H30_n_cells_Uall_ge_0.8": 0,
+  "U_all": [
+    {
+      "dataset": "EC3D",
+      "act": "Lunges",
+      "ruler": "positions",
+      "protocol": "U_all",
+      "pooled_auc": 0.45893719806763283,
+      "n": 127,
+      "auc_O": 0.8862050456253355,
+      "auc_D2": 0.7718733225979603,
+      "delta": 0.11433172302737526,
+      "recovery": -2.7370892018779327
+    },
+    {
+      "dataset": "EC3D",
+      "act": "Lunges",
+      "ruler": "bone27",
+      "protocol": "U_all",
+      "pooled_auc": 0.4691358024691358,
+      "n": 127,
+      "auc_O": 0.7944176060118089,
+      "auc_D2": 0.6309715512614064,
+      "delta": 0.16344605475040253,
+      "recovery": -0.9901477832512322
+    },
+    {
+      "dataset": "EC3D",
+      "act": "Plank",
+      "ruler": "positions",
+      "protocol": "U_all",
+      "pooled_auc": 0.964935064935065,
+      "n": 103,
+      "auc_O": 0.9904761904761904,
+      "auc_D2": 0.9714285714285714,
+      "delta": 0.01904761904761898,
+      "recovery": NaN
+    },
+    {
+      "dataset": "EC3D",
+      "act": "Plank",
+      "ruler": "bone27",
+      "protocol": "U_all",
+      "pooled_auc": 0.9034632034632034,
+      "n": 103,
+      "auc_O": 0.9662337662337662,
+      "auc_D2": 0.8818181818181818,
+      "delta": 0.08441558441558439,
+      "recovery": 0.2564102564102557
+    },
+    {
+      "dataset": "EC3D",
+      "act": "SQUAT",
+      "ruler": "positions",
+      "protocol": "U_all",
+      "pooled_auc": 0.6978048780487804,
+      "n": 141,
+      "auc_O": 0.967560975609756,
+      "auc_D2": 0.7058536585365853,
+      "delta": 0.26170731707317063,
+      "recovery": -0.03075489282385838
+    },
+    {
+      "dataset": "EC3D",
+      "act": "SQUAT",
+      "ruler": "bone27",
+      "protocol": "U_all",
+      "pooled_auc": 0.7341463414634146,
+      "n": 141,
+      "auc_O": 0.8765853658536585,
+      "auc_D2": 0.5739024390243902,
+      "delta": 0.30268292682926834,
+      "recovery": 0.5294117647058824
+    },
+    {
+      "dataset": "GAITEX",
+      "act": "rd",
+      "ruler": "imu",
+      "protocol": "U_all",
+      "pooled_auc": 0.7160260951977843,
+      "n": 760,
+      "auc_O": 0.991875155273788,
+      "auc_D2": 0.6650318828844579,
+      "delta": 0.3268432723893301,
+      "recovery": 0.15602038230905643
+    },
+    {
+      "dataset": "GAITEX",
+      "act": "rgs",
+      "ruler": "imu",
+      "protocol": "U_all",
+      "pooled_auc": 0.5164198764534884,
+      "n": 684,
+      "auc_O": 0.9981377180232558,
+      "auc_D2": 0.8340297965116279,
+      "delta": 0.1641079215116279,
+      "recovery": -1.9353722668142816
+    }
+  ],
+  "seed": 0,
+  "n_reps": 50
+}

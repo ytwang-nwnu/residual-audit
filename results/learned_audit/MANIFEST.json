@@ -1,0 +1,3311 @@
+{
+  "generated_unix": 1793691433.031184,
+  "prereg": {
+    "results/idea67b/exp/prl_v2/round7/PREREG_R7.md": "8c1bb1b93eedf323efb63f580109b42a",
+    "results/idea67b/exp/prl_v2/round7/R0_stamp.json": "8213696141167ff345510fff019b1cc1",
+    "results/idea67b/exp/prl_v2/round7/selfcheck_data.json": "5b12a12f3fa889a4c03efa31200c2cc3",
+    "results/idea67b/exp/prl_v2/round7/pilot.json": "18086a305ae40a8be016ee1768c746cf",
+    "results/idea67b/exp/prl_v2/round7/PREREG_R7_amend1.md": "d64782397d388df648cf918ea838815b",
+    "results/idea67b/exp/prl_v2/round7/R0_stamp_amend1.json": "90dbc8c476f15789d028d3fda3f9f9e5",
+    "selfcheck_data.json": "5b12a12f3fa889a4c03efa31200c2cc3",
+    "pilot.json": "18086a305ae40a8be016ee1768c746cf",
+    "matrix_m1.log": "1112af479016f63d7a654d300deeaae1",
+    "matrix_m1_v2.log": "c65ef91af412a114a6ab056cfdeb41d2",
+    "matrix_m1_v3.log": "b405eb7bfdcc2257598478b1bd663afa",
+    "matrix_m1_v4.log": "ead9856f9d1f8464cd7552c45cfc3688",
+    "matrix_m3p.log": "ec059a38800d3fa6fd477535f36cc39d",
+    "summary.log": "41910ba26f84a70e039f1c54400761af",
+    "watch_m2.log": "f4e44001c59bc41963feba8d5b3c3d63",
+    "watch_m2_then_aggregate.sh": "710e6595e81fd798392ab24f605eb0dd",
+    "aborted_logs/aborted_2026-11-03_v201_m4_s1_fold0_seed0.log": "1877ee62ce07f815c7a8ac70a82fd2b3",
+    "aborted_logs/aborted_2026-11-03_v221_m4_s2_fold0_seed0.log": "a4f64c1d8ce1f75f86bcfe61d08fec57",
+    "aborted_logs/aborted_2026-11-03_v301_m5_s1_fold0_seed0.log": "c2a7e22fa368bc8850272126b3f765f2",
+    "aborted_logs/aborted_2026-11-03_v321_m5_s2_fold0_seed0.log": "cf4c97aa380a67ee77e7587574dc7821",
+    "aborted_logs/aborted_2026-11-03_v322_m5_s2_fold1_seed0.log": "3c979920c21f58b14fe3145e57763de8",
+    "aborted_logs/amend1_matrix_m4_s1_seed0_chain_killed.log": "85e40d1a951b47a62e7d89e41e682b89",
+    "aborted_logs/amend1_matrix_m4_s2_seed0_chain_killed.log": "4c1a85c36cf0151ab764fe81ace8f787",
+    "aborted_logs/m2_seed0_s1_sequential.log": "5813607a307d0fe8251b19e1051d45b0",
+    "aborted_logs/m2_seed0_s2_3way_sharing_budget.log": "0f2fef00300c75f01384899998106ff3",
+    "aborted_logs/m2_seed0_s2_sequential.log": "abf74883e6569261dc26a6c4cf2916b2",
+    "aborted_logs/m2_seed1_s1_3way_sharing_budget.log": "86bb4b5819dc0c3bf49025f8f1377501",
+    "aborted_logs/m2_seed1_s2_3way_sharing_budget.log": "4e582ef35cd69ce4abaafc3957e2c5fc",
+    "aborted_logs/m2_seed2_s1_3way_sharing_budget.log": "d6429891db6ba0602b488964c79ab7d4",
+    "aborted_logs/m2_seed2_s2_3way_sharing_budget.log": "81ab7a276037d4b74d683f4b7cd619d1",
+    "SESSION_STATE_amend1.txt": "ebe812efb3ae0e914d3e5831e96ac7dc",
+    "baseline_md5_pre_amend1.txt": "e043299a7dc51c621281e8320de2fbe8",
+    "matrix_m4_s1_0_0_201.log": "1e370cae14b8190075a17b52d2e85250",
+    "matrix_m4_s1_1_0_202.log": "3be1e393911e2608ad94a5c6223d38a8",
+    "matrix_m4_s1_2_0_203.log": "f5d166b26749f18acc11fc2e7572cfb1",
+    "matrix_m4_s1_3_0_204.log": "07881e641e96f0e97ca67d476e087fe7",
+    "matrix_m4_s1_seed0.log": "85e40d1a951b47a62e7d89e41e682b89",
+    "matrix_m4_s2_0_0_221.log": "eabc19697f7e2f7d9c145aaa2b395fec",
+    "matrix_m4_s2_1_0_222.log": "3c7e51b2f2d033588a2a42586e53fc0d",
+    "matrix_m4_s2_2_0_223.log": "a72b0457197c8bef63af9e400357cb67",
+    "matrix_m4_s2_3_0_224.log": "e5a901766deb1c37b3059eebc7df0ff1",
+    "matrix_m4_s2_seed0.log": "4c1a85c36cf0151ab764fe81ace8f787",
+    "matrix_m5_rerun.log": "2b063a5b3841f4a4924f8b5f860c8e21",
+    "matrix_m5_s1_0_0_311.log": "1ddefd77d1f3db6fc482d98c6173ef94",
+    "matrix_m5_s1_seed0.log": "831904d47a87e1fb06317c9abd8b236f",
+    "matrix_m5_s2_0_0_331.log": "acfcee81c3cb8c1f202cd3120c4dd583",
+    "matrix_m5_s2_1_0_332.log": "6b1f5f1343957b6c419acaed5e96de44",
+    "matrix_m5_s2_seed0.log": "810b7e55614b4820f7612a4579c60a28",
+    "smoke_amend1/timing.json": "09303a9159e6bc4719cd1a2f00193521",
+    "summary_amend1.log": "167c8de3fcc272f0c60dcb77f6ca627a",
+    "summary_m4m5.log": "36ae9e083143d81351d3f389bce9ba75",
+    "watch_amend1.log": "3b6069c91c856bda144a8b210d4bb08d",
+    "watch_amend1_then_aggregate.sh": "54b67b0b61fe17a89884ea7bc2f0e585",
+    "watch_m4m5.log": "fedb7176950f06679eda78a293995d59",
+    "watch_m4m5_then_aggregate.sh": "ec5d8c644665b1918a537640f5a591a7"
+  },
+  "stamps": {
+    "R0_stamp.json": {
+      "path": "/data1/users/yangrui/results/idea67b/exp/prl_v2/round7/PREREG_R7.md",
+      "md5": "8c1bb1b93eedf323efb63f580109b42a",
+      "mtime_unix": 1793584322.280681,
+      "size": 6032
+    },
+    "R0_stamp_amend1.json": {
+      "path": "/data1/users/yangrui/results/idea67b/exp/prl_v2/round7/PREREG_R7_amend1.md",
+      "md5": "d64782397d388df648cf918ea838815b",
+      "mtime_unix": 1793672071.6922867,
+      "size": 3660,
+      "stamped_at": "2026-11-03T10:14:33"
+    }
+  },
+  "code": {
+    "root": "/data1/users/yangrui/projects/idea67b/experiment/code/prl_v2/round7",
+    "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+    "scripts": {
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/make_manifest.py": "c25684c04e28ee499896a4b617176e2c",
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/make_summary.py": "0b80462e64df6398d349fb9f9c104051",
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/record_pilot_amend1.py": "cfd8390ffe9ce4ac2c9ef30fbcc398cc",
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/run_split.py": "7b942269ce18c5ed4d2a613fb2a3a571",
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/selfcheck.py": "2fb3625ae85468252f18c45dd6933994",
+      "projects/idea67b/experiment/code/prl_v2/round7/scripts/smoke_amend1.py": "70c681380bfcb8e5834b17d025d157d7",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/drp_bench.py": "d32e0543afe666e109a9adba856744f9",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/ec3d.py": "19072c9009f86de5942981413ee977e2",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/m1_zhao.py": "82a64f4248baf0f42f8603ffe8f518e1",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/m2_stgcn.py": "911d428be2a022170eda91fe2a284d2f",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/m3p_rehab.py": "d4d07c214ede921c85e1dfffdb279067",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/m4_litemv.py": "e6ffcc89d56b4c8081562c849317eb12",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/m5_convtran.py": "1883f13e7b82f568ee8990aa184327f5",
+      "projects/idea67b/experiment/code/prl_v2/round7/src/metrics_r7.py": "70f4d150aff25c2efa3f021dce3b41ab"
+    },
+    "configs": {
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/common.yaml": "01a1861a21ad7ccd1ae979deffe095e0",
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/m1.yaml": "25c09988c6fb2a5030d1f3549dc76570",
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/m2.yaml": "f38a069ae0219c6b77334ea7c3dd6113",
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/m3p.yaml": "0f2958a0d29b473494c437205171c296",
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/m4.yaml": "e8d45d32b05037e23450bc6728a55b46",
+      "projects/idea67b/experiment/code/prl_v2/round7/configs/m5.yaml": "719aae48cc59999a0720bb9976bf3678"
+    }
+  },
+  "third_party": {
+    "zhao22": {
+      "commit": "1c8d28ddc8a346634f9c86335e3a261f90d6b9b2",
+      "role": "M1 code identical to vendored experiment/code/zhao22"
+    },
+    "stgcn_rehab": {
+      "commit": "1a215ba23d0d8a7490e9b0b640633ed8952e5ed5",
+      "role": "M2"
+    },
+    "exechecker": {
+      "commit": "1e6df144bb49fd1173b027115d07a332f018c682",
+      "role": "M3 (not run: see m3_fallback)"
+    },
+    "rehabexer": {
+      "commit": "e6c3d21ead98136878c97ad420c6e0da4a87cb56",
+      "role": "M3' fallback"
+    },
+    "deeprehabpile": {
+      "commit": "f7e4d81502a668bfc2c126105777f328b6259d8c",
+      "role": "M4 LITEMV / M5 ConvTran (PREREG_R7_amend1); github.com/MSD-IRIMAS/DeepRehabPile, pip -e into env deeprehabpile"
+    }
+  },
+  "amend1": {
+    "spec": "PREREG_R7_amend1.md (md5 in prereg, pre-run stamp R0_stamp_amend1.json in stamps)",
+    "methods": {
+      "m4": "LITEMV",
+      "m5": "ConvTran"
+    },
+    "adapters": [
+      "src/drp_bench.py",
+      "src/m4_litemv.py",
+      "src/m5_convtran.py"
+    ],
+    "model_selection": "benchmark default: ModelCheckpoint(monitor='loss', save_best_only) -> prediction with the lowest TRAINING-loss checkpoint; differs in wording from PREREG_R7's 'last epoch' for M1-M3' but involves no test data (recorded here as the amendment requires)",
+    "ensemble": "5 initializations per run unit, probability averaging; initialization i of run seed s uses tf.keras.utils.set_random_seed(5*s + i)",
+    "input_view": "(100,19,3) -> (19,3,100) -> deep_rehab_pile.utils._normalize_skeletons (per-dimension min-max fit on the training persons of that action) -> (57,100) channels-first, as load_classification_data",
+    "env_note": "env deeprehabpile pinned per the repo README (tensorflow 2.16.1, keras 3.6.0, aeon 1.2.0, numpy 1.26.4, scikit-learn 1.4.2, hydra-core 1.3.2, omegaconf 2.3.0, pandas 2.0.3, matplotlib 3.9.0); pyproject.toml at the recorded commit declares tensorflow>=2.18 / aeon==1.4.0 / numpy>=2 instead, so the package was installed with `pip install -e . --no-deps`. The estimator code is identical at both requirement sets (only pyproject/dockerfile/tests changed after v0.1.2)."
+  },
+  "m3_fallback": {
+    "decision": "M3' Kelly510/RehabExerAssess used instead of M3 EvenGu/ExeChecker",
+    "reason": "ExeChecker @1e6df14 cannot run as shipped: trainMulti_perExe.py imports train_val_test.parser_args, loss.hierarchical_loss, joints_dtw — none in repo; and the shipped model returns (features, embeddings) only — no code path produces a per-rep scalar error score (p(error)), which PREREG_R7 requires. Both activation conditions in the prereg are met."
+  },
+  "seeds": {
+    "seeds": 3,
+    "reason": "estimated total << 24 GPU-hours"
+  },
+  "m2_budget_decision": {
+    "measured": "3 concurrent M2 processes per V100 (memory growth on): no process reached epoch 100 within 35 min after epoch 1 (14:10:51 -> 14:45:47), i.e. > 21 s/epoch shared, > 7 s/epoch per GPU at 99% util; 1000 epochs > 1.9 GPU-h per run; 24 runs > 46 GPU-h. Earlier uncontended attempt (1 process per GPU): epoch 100 not reached within 5.8 min -> > 3.5 s/epoch -> > 58 min per run, 24 runs > 23 GPU-h.",
+    "rule": "PREREG_R7: total projected > 24 GPU-hours -> seeds reduced to 1",
+    "decision": {
+      "m2_seeds": [
+        0
+      ],
+      "runs": 8,
+      "layout": "seed0 S1 folds 0-3 on GPU0 (V0=100), seed0 S2 folds 0-3 on GPU1 (V0=110)"
+    },
+    "aborted": "partial M2 runs v111,v121,v131,v141,v151 (seeds 1,2 and the GPU0 copy of seed0 S2) killed before finishing and their empty run dirs removed; launcher logs kept in aborted_logs/",
+    "timestamp": "2026-11-02T14:50",
+    "layout_final": "seed0: 8 runs launched as 8 concurrent single-run processes at 14:49 (S1 folds 0-3 on GPU0 = v101-v104, S2 folds 0-3 on GPU1 = v111-v114), TF_FORCE_GPU_ALLOW_GROWTH=true; the two sequential chains started 14:02/14:46 were stopped first and their partial v101/v111 dirs removed (no scores produced)."
+  },
+  "measured_m4": {
+    "unit": "M4 S1 fold 0 seed 0 (3 actions x 5 initializations, 1500 epochs each)",
+    "conditions": "measured while several run_split processes shared the V100s (see log timestamps / SESSION_STATE_amend1.txt); contended, so per-unit time is an upper bound of the uncontended time",
+    "run": "2026-11-03_v201_m4_s1_fold0_seed0",
+    "elapsed_sec": 11872.876896858215,
+    "gpu_mem_max_mib": 6344,
+    "n_scores": 85,
+    "method": "m4",
+    "split": "s1",
+    "fold": 0,
+    "seed": 0,
+    "n_models": 15,
+    "fit_sec_sum": 11847.191508,
+    "fit_sec_mean": 789.8127671999999,
+    "epochs_run": [
+      1500
+    ],
+    "best_epoch_min_max": [
+      1500,
+      1500
+    ]
+  },
+  "measured_m5_pilot": null,
+  "m4m5_budget_decision": {
+    "rule": "PREREG_R7_amend1: M4 + M5 projected > 24 GPU-hours -> seeds reduced to {0}, else {0,1,2}",
+    "measured_projection": {
+      "per_method": {
+        "m4": {
+          "unit_hours": 3.298021360238393,
+          "units_per_seed": 8,
+          "hours_seeds3": 79.15251264572143,
+          "hours_seeds1": 26.384170881907146
+        },
+        "m5": {
+          "unit_hours": 0.8102109815014733,
+          "units_per_seed": 8,
+          "hours_seeds3": 19.445063556035358,
+          "hours_seeds1": 6.481687852011786
+        }
+      },
+      "m5_measured_from": "2026-11-03_v302_m5_s1_fold1_seed0",
+      "total_hours_seeds3": 98.5975762017568,
+      "total_hours_seeds1": 32.865858733918934,
+      "m5_missing": false
+    },
+    "rule_outcome_from_measured": {
+      "seeds": [
+        0
+      ]
+    },
+    "launch_decision": {
+      "seeds": [
+        0
+      ],
+      "basis": "taken before the measured pilot unit finished, from the 50-epoch extrapolation recorded under pilot.json['amend1'] (smoke_amend1/timing.json)",
+      "prior": {
+        "seeds": 1,
+        "reason": "seeds=3 estimate 178.6 GPU-h > 24 -> seeds=1 per prereg budget rule; even seeds=1 est 59.5 GPU-h exceeds 24 - reported, no further lever exists in prereg"
+      }
+    },
+    "consistent": true,
+    "seeds_with_finished_runs": [
+      0
+    ],
+    "note": "GPU-hours = run units x measured unit wall time, as for the M1/M2 decisions; measured under GPU sharing. If 'consistent' were false the matrix would have to be extended to seeds 1, 2."
+  },
+  "run_selection": {
+    "void_rules": [
+      {
+        "method": "m1",
+        "commits": [
+          "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+          "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781"
+        ],
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "method": "m1",
+        "commits": [
+          "c9029149c57f190b6f8a4797a84bfbabb30a8b3b",
+          "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+          "1ec9d5b800cc43d720082408aab4288e4c10ed65"
+        ],
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      }
+    ],
+    "voided": [
+      {
+        "run": "2026-11-02_v01_m1_s0_fold3_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v02_m1_s0_fold3_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v03_m1_s0_fold3_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v04_m1_s1_fold0_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v05_m1_s1_fold0_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v06_m1_s1_fold0_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v07_m1_s1_fold1_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v08_m1_s1_fold1_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v09_m1_s1_fold1_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v10_m1_s1_fold2_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v11_m1_s1_fold2_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v12_m1_s1_fold2_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v13_m1_s1_fold3_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v14_m1_s1_fold3_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v15_m1_s1_fold3_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v16_m1_s2_fold0_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v17_m1_s2_fold0_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v18_m1_s2_fold0_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v19_m1_s2_fold1_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v20_m1_s2_fold1_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v21_m1_s2_fold1_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v22_m1_s2_fold2_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v23_m1_s2_fold2_seed1",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v24_m1_s2_fold2_seed2",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v25_m1_s2_fold3_seed0",
+        "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v26_m1_s2_fold3_seed1",
+        "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v27_m1_s2_fold3_seed2",
+        "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+        "reason": "score saturation: score_items computed 1 - exp(logp[c] - lse) in float, which with the model's large logits collapses to exactly 0 or 1 (1-3 unique score values per action), so AUC was dominated by ties. Fixed in commit c902914 (within-action log-odds in log space, a strictly monotone transform of the pre-registered 1 - p(correct); pred unchanged). These runs also have the batch-1 BatchNorm defect below. The whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v28_m1_s0_fold3_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v29_m1_s0_fold3_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v30_m1_s0_fold3_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v31_m1_s1_fold0_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v32_m1_s1_fold0_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v33_m1_s1_fold0_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v34_m1_s1_fold1_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v35_m1_s1_fold1_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v36_m1_s1_fold1_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v37_m1_s1_fold2_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v38_m1_s1_fold2_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v39_m1_s1_fold2_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v40_m1_s1_fold3_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v41_m1_s1_fold3_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v42_m1_s1_fold3_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v43_m1_s2_fold0_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v44_m1_s2_fold0_seed1",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v45_m1_s2_fold0_seed2",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v46_m1_s2_fold1_seed0",
+        "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v47_m1_s0_fold3_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v48_m1_s0_fold3_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v49_m1_s0_fold3_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v50_m1_s1_fold0_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v51_m1_s1_fold0_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v52_m1_s1_fold0_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v53_m1_s1_fold1_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v54_m1_s1_fold1_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v55_m1_s1_fold1_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v56_m1_s1_fold2_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v57_m1_s1_fold2_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v58_m1_s1_fold2_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v59_m1_s1_fold3_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v60_m1_s1_fold3_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v61_m1_s1_fold3_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v62_m1_s2_fold0_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v63_m1_s2_fold0_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v64_m1_s2_fold0_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v65_m1_s2_fold1_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v66_m1_s2_fold1_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v67_m1_s2_fold1_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v68_m1_s2_fold2_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v69_m1_s2_fold2_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v70_m1_s2_fold2_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v71_m1_s2_fold3_seed0",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v72_m1_s2_fold3_seed1",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      },
+      {
+        "run": "2026-11-02_v73_m1_s2_fold3_seed2",
+        "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+        "reason": "inference ran with BatchNorm skipped: score_items fed one rep at a time and zhao22/models.py GCN_class.forward guards both BatchNorm1d layers with `if b > 1`, while the repo tests with batch_size=len(data_test). On un-normalized activations |log p| ~ 1e4 (root cause of the saturation) and S0 12-class accuracy was 0.25/0.36 (seed 0/1) vs 0.875/0.920 with full-batch inference on the same trained models. Fixed in commit 89d7974 (one batch per condition, score/pred formulas unchanged) and the whole M1 matrix was re-run."
+      }
+    ],
+    "superseded": [],
+    "ignored": [
+      {
+        "run": "2026-11-02_v01_m1_s1_fold0_seed0_pilot",
+        "why": "name does not match the run pattern"
+      }
+    ]
+  },
+  "run_selection_amend1": {
+    "void_rules": [],
+    "voided": [],
+    "superseded": [],
+    "ignored": []
+  },
+  "envs": {
+    "zhao-ec3d": {
+      "interpreter": "/data1/users/yangrui/envs/zhao-ec3d/bin/python",
+      "python": "3.8.10",
+      "torch": "2.4.1+cu121",
+      "numpy": "1.24.4",
+      "pandas": "1.3.5"
+    },
+    "stgcn-rehab": {
+      "interpreter": "/data1/users/yangrui/envs/stgcn-rehab/bin/python",
+      "python": "3.10.22",
+      "tensorflow": "2.15.1",
+      "keras": "2.15.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3"
+    },
+    "idea67b": {
+      "interpreter": "/data1/users/yangrui/envs/idea67b/bin/python",
+      "python": "3.12.15",
+      "torch": "2.14.0+cu126",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "sklearn": "1.9.1"
+    },
+    "deeprehabpile": {
+      "interpreter": "/data1/users/yangrui/envs/deeprehabpile/bin/python",
+      "python": "3.11.18",
+      "tensorflow": "2.16.1",
+      "keras": "3.6.0",
+      "numpy": "1.26.4",
+      "pandas": "2.0.3",
+      "sklearn": "1.4.2",
+      "aeon": "1.2.0",
+      "omegaconf": "2.3.0",
+      "hydra": "1.3.2"
+    }
+  },
+  "experiments": [
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v01_m1_s0_fold3_seed0",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "814520fe12f133e959462f561d94d027",
+        "log.txt": "271ce0a6c123ea04102a78366e382e1c",
+        "resource.json": "dc73bce92e965805251040fb6f321555",
+        "scores.csv": "83f80f18e3f4d1f826772c7f0bca5795"
+      },
+      "elapsed_sec": 9.296611547470093,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v01_m1_s1_fold0_seed0_pilot",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "b3741583af8d641e94aa3e72bbe8e899",
+        "log.txt": "eb179bc532a6dbbf2b94b937de394d73",
+        "resource.json": "d9a919d79d7ea8181ce23b64a6f24724",
+        "scores.csv": "18f36c06f8c107c7899391f5791304fb"
+      },
+      "elapsed_sec": 9.279622077941895,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v01_m3p_s1_fold0_seed0",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "ccba77c4d3190178b8377e349db02b3f",
+        "log.txt": "4447d3805e7cd7918fc05b948c0988e8",
+        "resource.json": "9243b553aae59ff7d2ab47082a134cb5",
+        "scores.csv": "4f41eb7f3d948fd301a281ef16fd304b"
+      },
+      "elapsed_sec": 34.531383752822876,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v02_m1_s0_fold3_seed1",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "608dda16693e82041429b71225a07555",
+        "log.txt": "30f6722b8d1c494acc2249fb4d0c4cf7",
+        "resource.json": "551594a687c81985cb6fff398af0e0e4",
+        "scores.csv": "fc2b193ac14a8bc5f4f160ea2fa8b135"
+      },
+      "elapsed_sec": 9.363080978393555,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v02_m3p_s1_fold0_seed1",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 0,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "5a691285f20b9949e4329dcb46a55a9d",
+        "log.txt": "3266986d6edbab0e25fa646726e6632e",
+        "resource.json": "4ea6751005c33cdae5de68b768c0e3bf",
+        "scores.csv": "1331b76670e51e36e153383a51a66bd2"
+      },
+      "elapsed_sec": 34.42195510864258,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v03_m1_s0_fold3_seed2",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "5ba4a4b987c22926f42ea9608d0908f8",
+        "log.txt": "02314089f81d76270a479fe61b6d1ce7",
+        "resource.json": "ac8521ef2aa40a154acb88cdb9fbc76a",
+        "scores.csv": "723aa4ded04b10a1c556859966cefff5"
+      },
+      "elapsed_sec": 9.271273136138916,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v03_m3p_s1_fold0_seed2",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 0,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "4ef1598183ce7f6f7fe2b4928adf3d9f",
+        "log.txt": "b5373f5214ca54921eefbae07cc72197",
+        "resource.json": "b9039b934ee7b7f00f381f381c8716a6",
+        "scores.csv": "c25067ae6b092f6237bdaaa0f2415989"
+      },
+      "elapsed_sec": 34.44822335243225,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v04_m1_s1_fold0_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "f7e2da22565e2eef0ccd6600caf0270f",
+        "log.txt": "c2c72ea38176ae0cc980c0b1afe7e734",
+        "resource.json": "090bafe9dc782a42a1909361886cd5c2",
+        "scores.csv": "564e975105d6a5fc879a3a58a3f800ae"
+      },
+      "elapsed_sec": 9.26606035232544,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v04_m3p_s1_fold1_seed0",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "d592aa89aa3186f559121a1f52d79529",
+        "log.txt": "eb30c47a76574f30a0975dd51b0b04f2",
+        "resource.json": "44f805e65a2374248dc4381ed3039855",
+        "scores.csv": "d73d4fce51fb797a913d567cd0e7f2e4"
+      },
+      "elapsed_sec": 34.08283305168152,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v05_m1_s1_fold0_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "494f1455704da9a2f9d42d6352ce1454",
+        "log.txt": "027e24e6c395801717a82a8227e66cf9",
+        "resource.json": "46fa58175fa819296462906385a3d9db",
+        "scores.csv": "1288119e6773e9d8f19f903f54cb0ad5"
+      },
+      "elapsed_sec": 9.37108063697815,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v05_m3p_s1_fold1_seed1",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 1,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "a490982f3621adf6da68fac2879faaa3",
+        "log.txt": "d892dbd21072fc64e22df776bacb5789",
+        "resource.json": "943013a9f8d73106c1fabb66c572f058",
+        "scores.csv": "ed0354be00434c44ca339e4a39ecff1e"
+      },
+      "elapsed_sec": 34.0609986782074,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v06_m1_s1_fold0_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "2d24fdfd19c7cf3917c25fcfc82c47b0",
+        "log.txt": "2892568d2334b87d80ebab20dbefd5e6",
+        "resource.json": "9515c3dc5d86c61615d8b1eb114bd8aa",
+        "scores.csv": "c6aa8fe8f8880a52398106d982221b8c"
+      },
+      "elapsed_sec": 9.24056363105774,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v06_m3p_s1_fold1_seed2",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 1,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "6bc3538bd16863ab33d2986753785732",
+        "log.txt": "7b7f000da5ab42efaf2e2b246c302d02",
+        "resource.json": "a75f1adb99a029ba92981e466565ef2d",
+        "scores.csv": "bbb6be3610aa7a04f76b7612b6e8b018"
+      },
+      "elapsed_sec": 34.08112335205078,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v07_m1_s1_fold1_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "37a53b0a8e91886841eeb9c36e8a86ba",
+        "log.txt": "e083e57bb54047abf1b9908c3fc3b2ff",
+        "resource.json": "54442a9c923fd5739e29c4698d7fa89a",
+        "scores.csv": "7afcef869058c3e61485c58c69cc57d4"
+      },
+      "elapsed_sec": 9.295578479766846,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v07_m3p_s1_fold2_seed0",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "77536a43007a8a6d2db8ded87e453866",
+        "log.txt": "2060bf283f2adef59e88d50af88874c9",
+        "resource.json": "6f6c167b536fcd44f68aea8979943d59",
+        "scores.csv": "5f461dad3cecb871f2cba53b1fb07f6b"
+      },
+      "elapsed_sec": 30.399848699569702,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v08_m1_s1_fold1_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "0a49a5d4a56161d325f02f1e0b41456f",
+        "log.txt": "6f8e533dcc33ca2d07f47e1c399fcad7",
+        "resource.json": "8d9bd864252f91682934a57fc17be5e2",
+        "scores.csv": "654ad50c48aa9c3614ca2b5d3f0f1fdc"
+      },
+      "elapsed_sec": 9.292451858520508,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v08_m3p_s1_fold2_seed1",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 2,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "a7b356752b95dfc8cefb66e4bd53d201",
+        "log.txt": "f346987fa5ffe66f8b8c857ed753569d",
+        "resource.json": "c32843be95238b508af1b584f0b18f1b",
+        "scores.csv": "a2ec4a5744a86fa24c2b35c1f954dce1"
+      },
+      "elapsed_sec": 30.42868447303772,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v09_m1_s1_fold1_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "bafd8f0399e06bbbb05d5348a6f61117",
+        "log.txt": "97f61ca066a545b3d5221501c9def932",
+        "resource.json": "0e35d8e73cce263552f5d0e400daf5e6",
+        "scores.csv": "8031b9c5b57428f1d8e68cd30a652176"
+      },
+      "elapsed_sec": 9.28338623046875,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v09_m3p_s1_fold2_seed2",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 2,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "02d208167289ed73833f40ace842b479",
+        "log.txt": "50af98f219b9f312ee100f61fcd6f035",
+        "resource.json": "b5fc1a25b038d3ebd54f9ec09499395a",
+        "scores.csv": "a25bd05b7ee3f44fd9ee9fca76235f20"
+      },
+      "elapsed_sec": 30.37631058692932,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v100_m1_s2_fold3_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "8bb25fb379e10b8641acc01e190e5c73",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "3e4ad9880e2e609e64d717a82c53cfaa",
+        "resource.json": "8eec9829e06cdfc3695d46475f5d4df2",
+        "scores.csv": "fd58e9fcf055cd0983b4525b230ede9f"
+      },
+      "elapsed_sec": 15.452136516571045,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v101_m2_s1_fold0_seed0",
+      "method": "m2",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "5a9b180a73be3423c8f0dc1de6fa19a4",
+        "log.txt": "dc9adeb15062dcfb9814195843ed1d07",
+        "resource.json": "3ec79ed1e2511aabe269ca89e562e6b7",
+        "scores.csv": "dd6e3d0a01f8dc5f63fd585c593804b0"
+      },
+      "elapsed_sec": 36489.31845474243,
+      "gpu_mem_max_mib": 1646
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v102_m2_s1_fold1_seed0",
+      "method": "m2",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "de34275fac90ae86a8ec90beeaf16178",
+        "log.txt": "e7c555af16f6f3d7a41a4075f7320ed6",
+        "resource.json": "4b80bef5d1cf693867bcf816fa27f1f0",
+        "scores.csv": "23a3f30ae0ecec1319c9d628e07b524d"
+      },
+      "elapsed_sec": 35379.96402668953,
+      "gpu_mem_max_mib": 1134
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v103_m2_s1_fold2_seed0",
+      "method": "m2",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "870b012d56cc02f4de09c1bb01d79a34",
+        "log.txt": "b203327654cd3a72ac694cc5e951fb07",
+        "resource.json": "082c0c6161d0aa18c988c6c7d4e28126",
+        "scores.csv": "fff43f499b91177765b88a07dd3aff68"
+      },
+      "elapsed_sec": 32093.607629537582,
+      "gpu_mem_max_mib": 2160
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v104_m2_s1_fold3_seed0",
+      "method": "m2",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "a83ba0f151897d333ab28b0df5cb9994",
+        "log.txt": "6adc1286bd37972645a9e172da7c0116",
+        "resource.json": "ab6fe76c0f28189d15be729d1e50f443",
+        "scores.csv": "c324929d5e0a465409fbcf73cd18deba"
+      },
+      "elapsed_sec": 34071.142684459686,
+      "gpu_mem_max_mib": 1134
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v10_m1_s1_fold2_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "b1f39bca7160553d1c15f4cbd2bc7cd2",
+        "log.txt": "056599d0e4a8291358c819633106134f",
+        "resource.json": "80f33888c23c4d8ebaf3084dccdfbf0d",
+        "scores.csv": "11c9d8e383d82e8f9ae0afc500708e15"
+      },
+      "elapsed_sec": 9.292068004608154,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v10_m3p_s1_fold3_seed0",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "a91fc32e636948a8ebc21facd3691120",
+        "log.txt": "2538c48e634be97b4377803e03ee12be",
+        "resource.json": "5958a1c0bfec79335b32ed9e73fa8103",
+        "scores.csv": "28eaad4a4c929103b766a22c86065f51"
+      },
+      "elapsed_sec": 34.2170033454895,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v111_m2_s2_fold0_seed0",
+      "method": "m2",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "62f2b91086e4532c98949fcc676f3af2",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "1a37bb04c480347e639b35ac5508ef29",
+        "resource.json": "1cadfeaa9fcf7b2d4c0b975842149a92",
+        "scores.csv": "09c216b7ae38f0b3bb345e80e443ff17"
+      },
+      "elapsed_sec": 36158.613309144974,
+      "gpu_mem_max_mib": 2158
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v112_m2_s2_fold1_seed0",
+      "method": "m2",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "b73caa47609001679af54776d5d84135",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "33457fbcc8cf89d434fd1794c2d4cda9",
+        "resource.json": "7f613d2e902fa913d7005020737c2515",
+        "scores.csv": "00d5beaccdb17793fb598b04b4012299"
+      },
+      "elapsed_sec": 36413.020054101944,
+      "gpu_mem_max_mib": 2158
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v113_m2_s2_fold2_seed0",
+      "method": "m2",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "f035468f00dbf7677e7506b2543bf0b1",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "91ca0bbfdddca9281a2998568074420a",
+        "resource.json": "c7e7ce99a62989b690cd35b3c1ada291",
+        "scores.csv": "c0145d7fb87e548d44ea677a4a045601"
+      },
+      "elapsed_sec": 32363.458893299103,
+      "gpu_mem_max_mib": 2160
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v114_m2_s2_fold3_seed0",
+      "method": "m2",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "f723f364abfaeaf917e47bf0a45434e4185dd4b4",
+      "outputs": {
+        "commit.txt": "0c83d220fa4ed60d48435e68a408fc22",
+        "config.yaml": "ebf16f06569fd2c39ab38eb42decc834",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "6f325ea8f249558170fc6c817893b0c2",
+        "resource.json": "b6edc8ebc65d69ea7581d71bdffd4f6b",
+        "scores.csv": "e907471e1870d9ad33ee3276da3811c2"
+      },
+      "elapsed_sec": 33999.579372406006,
+      "gpu_mem_max_mib": 2158
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v11_m1_s1_fold2_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "0034615dd422c0c0e20d1af19938687a",
+        "log.txt": "95242e80a15868633ba09af30bfab98c",
+        "resource.json": "f9584745be0e94d8f48ebb9398b138b5",
+        "scores.csv": "87d4b4a6cb4cea8c62a2f3fdf0009055"
+      },
+      "elapsed_sec": 9.277719020843506,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v11_m3p_s1_fold3_seed1",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 3,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "188d0fbf1aef9d3fbbdbc816243bce97",
+        "log.txt": "1e6785d1457a1f709a7989cfc59c1f6e",
+        "resource.json": "7e9595305c4cc253f703d8f18547af1f",
+        "scores.csv": "91196d4cb82e9886c860216ae6192287"
+      },
+      "elapsed_sec": 34.24503207206726,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v12_m1_s1_fold2_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "82911134df3ac2894c04aba92468fde1",
+        "log.txt": "33583a9aa08b19d054b5481f5186a025",
+        "resource.json": "e83fc70e6ba35e61ba8eadb711114720",
+        "scores.csv": "178442d1e9a718a88b92331cc0e068da"
+      },
+      "elapsed_sec": 9.45514178276062,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v12_m3p_s1_fold3_seed2",
+      "method": "m3p",
+      "split": "s1",
+      "fold": 3,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "c2a2daa46ee7f1cdb22f8009c0373c66",
+        "log.txt": "c79d705f873cbf6111bc235f3ff3a40f",
+        "resource.json": "58619e7a9ce34bd9ee5cd301260e7483",
+        "scores.csv": "e2227d90e1c868a5039b2df068775205"
+      },
+      "elapsed_sec": 34.23269724845886,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v13_m1_s1_fold3_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "dcbffd4efabe3fb032430e9dc7eabcf0",
+        "log.txt": "56485006d0551bb567404ab8edb338dc",
+        "resource.json": "d037d03f87f3dfe81ee78996a5926b91",
+        "scores.csv": "8fae0705062047418e40e8642210bc5f"
+      },
+      "elapsed_sec": 9.323246479034424,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v13_m3p_s2_fold0_seed0",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "1bec4762fe50b334e531e061aacc5629",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "e30a1ec297e1e3a68a794c46706dfdc4",
+        "resource.json": "db446c70de6e6a01098a6ce5898dd9df",
+        "scores.csv": "1478fa5752fdc2ce1b46c0414315b57b"
+      },
+      "elapsed_sec": 35.48513102531433,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v14_m1_s1_fold3_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "a49ddd99306eb90e34e324d2057f93ab",
+        "log.txt": "b2db574549a2c5165dd7d274ba023d43",
+        "resource.json": "b3092769aedc8d1d0d7ee891e38ef571",
+        "scores.csv": "68e43c7dbc3f936da39a53dc07395152"
+      },
+      "elapsed_sec": 9.291550397872925,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v14_m3p_s2_fold0_seed1",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 0,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "c2b29841b17296ed495eaa3bfcb7101d",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "f14e83b2768a2886da9b7c933bbcba23",
+        "resource.json": "8ae3c23b8b9c8d3646e2a3b39e825a2c",
+        "scores.csv": "a7459695a8586cdc018c700dd026d44e"
+      },
+      "elapsed_sec": 35.47235894203186,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v15_m1_s1_fold3_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "eea116c87dc306e8516229bc0a7b44f5",
+        "log.txt": "d5d42b6e07716e7d9bc8546e34d9d710",
+        "resource.json": "0e6448cf73d5e20d0d0730eea4edba46",
+        "scores.csv": "613cce1a237c4a472e90da4e59a30099"
+      },
+      "elapsed_sec": 9.278438091278076,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v15_m3p_s2_fold0_seed2",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 0,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "eb05398f0c2a4a83eb4358c7cf373030",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "3e156b02e8c9f6595cb05115ad084274",
+        "resource.json": "71ea9c6cda56602a75e41c24c3760971",
+        "scores.csv": "b749cc43189b151c92bf5e6f337f5cce"
+      },
+      "elapsed_sec": 35.48698687553406,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v16_m1_s2_fold0_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "8f24a6857a4bee7829d0e7424896fe9d",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "8c51069e78b29a604dc2443fee7b50e1",
+        "resource.json": "267aaf8e1b78a09176254868f102e1cf",
+        "scores.csv": "1c7d39e79d2b07de56bcb9f315e295d9"
+      },
+      "elapsed_sec": 18.70986247062683,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v16_m3p_s2_fold1_seed0",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "abfef4d901d8ec7737c467a8322ff097",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "21ee556c044b2b80961fade198364f45",
+        "resource.json": "5b2e356b66859a87d1c4eb6d265771b3",
+        "scores.csv": "65c331bc94d31dc1af87716ef6f6ae8d"
+      },
+      "elapsed_sec": 35.54483771324158,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v17_m1_s2_fold0_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "45ffd5232d6c4deb3e7c1ccd609fc416",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "4ef8d666da5e0c8ce960a1f884a72749",
+        "resource.json": "1131d2ae35dd58dec042ae13f29f8477",
+        "scores.csv": "e76341af5200f58dbcb1079173416d8b"
+      },
+      "elapsed_sec": 15.325534343719482,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v17_m3p_s2_fold1_seed1",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 1,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "a70768756bfb73555e37cef06948da9d",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "1443d81e87b58c94f9bda0f691652a4b",
+        "resource.json": "78c21f617384b95c96d0aba9b33120b5",
+        "scores.csv": "e48dda5d6b43652b7249d1ce3142f493"
+      },
+      "elapsed_sec": 35.48844814300537,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v18_m1_s2_fold0_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "0973724bcc4bf54228f5bd893bd125b0",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "a334a52e707481bfb038b1253629aeac",
+        "resource.json": "8c8fa583ac42b4ef9a1e7dcd2cebf1a0",
+        "scores.csv": "56aaba4edfb60c37de938317029ac70a"
+      },
+      "elapsed_sec": 20.438434839248657,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v18_m3p_s2_fold1_seed2",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 1,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "496496328018fe0fe9bfb944b2e3e14d",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "0fc8e11cb08a3c91a33bae9bb62eb4f2",
+        "resource.json": "74204f60dec2b2f95cc978c8b18527aa",
+        "scores.csv": "4a0ca21a78a5f68e68e83ceb12f80f33"
+      },
+      "elapsed_sec": 35.44183611869812,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v19_m1_s2_fold1_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "2eb7733ecd6566f7a431fd64a096a1b7",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "e7009220e1a64faddbfab4144ff7eba9",
+        "resource.json": "2562c640f74063f38f83702cc6fea9c4",
+        "scores.csv": "d0dcf8b15221245f2a7d5d99d9df88d9"
+      },
+      "elapsed_sec": 19.26394772529602,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v19_m3p_s2_fold2_seed0",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "f9bc63978824288116578f1df2337524",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "6cbd2335edefb95ef2800218d301acfd",
+        "resource.json": "1eadf6c997905aa03a05b0567aa2b508",
+        "scores.csv": "57316e208c5c33b1f1a4e266d5ace527"
+      },
+      "elapsed_sec": 35.49032545089722,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v20_m1_s2_fold1_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "3729f579681c8ec1a0394f952dfa883e",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "2c3e19356d3e7a2ed0d32c3523c5b7ba",
+        "resource.json": "58a69023ff91e9547ba9317cade7528e",
+        "scores.csv": "9fc9dd72ecceedb6202febef20ca2287"
+      },
+      "elapsed_sec": 20.463939428329468,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v20_m3p_s2_fold2_seed1",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 2,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "0a8bce76098ff33310a08ba4a9042e45",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "6e99698bb94aac055080755ccfb3e7a1",
+        "resource.json": "a090125b78e05180afe014eb9478fe14",
+        "scores.csv": "b40aedbf23966a1c39a5cfe8d2db69cc"
+      },
+      "elapsed_sec": 35.47298526763916,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v21_m1_s2_fold1_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "b02a0e5c184bd912b535270a84d2a64e",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "3d52c9b86998b54d70b0fe29d635c496",
+        "resource.json": "206120ce3d3b99f257bfd14ce6fc7a64",
+        "scores.csv": "85f5261ae7968d8efe70ced09caba652"
+      },
+      "elapsed_sec": 19.06255602836609,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v21_m3p_s2_fold2_seed2",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 2,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "aebd78013d6fba8bacf1da7ec47217b7",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "54396cb0b88868c2f42ec32a6aa18de0",
+        "resource.json": "6d129e7135a2cfbd62eaa7558f881f37",
+        "scores.csv": "982ba8f2093a13dce29abbc8f516b6a6"
+      },
+      "elapsed_sec": 35.51394987106323,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v22_m1_s2_fold2_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "1929b8457d68f80dbaef5797a55869da",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "bdd8d267bd180df821c36522dd5dbee3",
+        "resource.json": "ced9da3c7bbc27e8c37d142f22fa61d6",
+        "scores.csv": "52f02d64aa5983d6bdfff43e8ae08bb0"
+      },
+      "elapsed_sec": 23.73017978668213,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v22_m3p_s2_fold3_seed0",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "e7c933d6ee23fb28e4d37d6879322ff8",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "b799c93c1dfb30deba557e880e3da9c3",
+        "resource.json": "b59ea2c46bc725cdc69dd7902ab118e3",
+        "scores.csv": "ac67d713ed7a6ab53e398194fac1bc44"
+      },
+      "elapsed_sec": 35.47842454910278,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v23_m1_s2_fold2_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 1,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "33ab83aafdd3e779691697cb996478f4",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "a10248d7a8ede126c1b6f61a5ca2e61d",
+        "resource.json": "b8dfb82913b96918e91f1370a3c3a1b3",
+        "scores.csv": "504fcc2c2aa0bbaa290b7b5aa724bbe4"
+      },
+      "elapsed_sec": 20.47900104522705,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v23_m3p_s2_fold3_seed1",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 3,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "e4c6bd32d4ee381567d9e2b50ed78d4d",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "63295bfa0a39d3d51385c1022091aff7",
+        "resource.json": "58e19b8b429ec6bd880de89a89485778",
+        "scores.csv": "9523b8f3648dc1030d4563e0919e54f5"
+      },
+      "elapsed_sec": 35.448346853256226,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v24_m1_s2_fold2_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 2,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "d6298446c1f937d3d76b201e68cf96a6",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "b1118c57ee2591d6e772791c8e1c7fe2",
+        "resource.json": "74f209b56a147851310227194cfa227b",
+        "scores.csv": "57de641d5415c05db945ea1d8c63802f"
+      },
+      "elapsed_sec": 20.45026159286499,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v24_m3p_s2_fold3_seed2",
+      "method": "m3p",
+      "split": "s2",
+      "fold": 3,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "a07a685869fc9b4ffd4b158424c15abb",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "4864fbab8b60766012cfbf178af5f45e",
+        "resource.json": "9d30783669a9e3b04cb13d938c08663d",
+        "scores.csv": "8e448e2eb16a67b8dbfe79d5bd08c282"
+      },
+      "elapsed_sec": 35.500267028808594,
+      "gpu_mem_max_mib": 2120
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v25_m1_s2_fold3_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "5490935231b2eb81f2bfd3c06f6a7fde2923bc22",
+      "outputs": {
+        "commit.txt": "070fe3fe49bb38d8eec7bb29f8dd1d30",
+        "config.yaml": "4734516c5b19ae200dd439b246e7447a",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "72052ce82e1e4df040ce1aabd1d6b267",
+        "resource.json": "c1c2584d3312c8d8cc64c1e76db3e4a6",
+        "scores.csv": "0003090d8e2b38213f57f79e5d1211f3"
+      },
+      "elapsed_sec": 20.035593509674072,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v26_m1_s2_fold3_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 1,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "0a4c8a4e8565cf3453d3ba96721b6619",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "eb8c3773e5737f2114cdfee3dc1d6ecc",
+        "resource.json": "e564ac033c89b05b016f2e77ba35db51",
+        "scores.csv": "dcc8a62e88dc303f5a7cdcf9bfbc6ed2"
+      },
+      "elapsed_sec": 19.641758918762207,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v27_m1_s2_fold3_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 2,
+      "commit": "49f9388e2a5f3c9ac8f4a53ca8e2e15d57825781",
+      "outputs": {
+        "commit.txt": "c276b4819f5271d5e4829692fcac6928",
+        "config.yaml": "3319628a08476539b06e8ae0fb58d7c8",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "81b7b0b49c9f28068dfbd39cafedb9b5",
+        "resource.json": "70510495767c9f8b0e1886a1c2fc9dfa",
+        "scores.csv": "b51fed018a0d63d401d24b5e78d277fb"
+      },
+      "elapsed_sec": 19.222753763198853,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v28_m1_s0_fold3_seed0",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "ade41167ed0cdf8ebea9fa7a62c5160e",
+        "log.txt": "6a59009b4125f3b248da63b40fdcb1c2",
+        "resource.json": "1f63e8fba6139f83b670df7199e528a6",
+        "scores.csv": "b9657375e05c34b8973c2764debffa33"
+      },
+      "elapsed_sec": 9.217906475067139,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v29_m1_s0_fold3_seed1",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "5d659cb293f266e6755af8e160c7d6b2",
+        "log.txt": "4e26665e2740ae2ba1b57ff8f47d72a6",
+        "resource.json": "97f61df77dbc9c82610c0cff1b7af080",
+        "scores.csv": "9d07efdab37a1055098d2dc8dd2b4265"
+      },
+      "elapsed_sec": 9.19566035270691,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v30_m1_s0_fold3_seed2",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "90f0e71381621d90ca5970b04bccfc6a",
+        "log.txt": "c63f374f640b78d159b2e19f3f3ca27b",
+        "resource.json": "9e962b4c163958a41817187b24c176b7",
+        "scores.csv": "215ba2bb6e065da1f855d10c0f53c447"
+      },
+      "elapsed_sec": 9.055933237075806,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v31_m1_s1_fold0_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "867e56261e2c5f9f8a9fb6afe92cf1ed",
+        "log.txt": "1a7566e82f0082d69b25309951e9ab97",
+        "resource.json": "5654320d2f076498b6bb4f29a43bb196",
+        "scores.csv": "333be3605a775932825b1fe422a836a4"
+      },
+      "elapsed_sec": 9.178165674209595,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v32_m1_s1_fold0_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "57749413a873d582c81229c77138bf28",
+        "log.txt": "394f47f9eb9f12e7e58959d8243279e6",
+        "resource.json": "97f9d07e6f8204b2d82c90f1e20327f5",
+        "scores.csv": "c2c4b073048b6f6ecc33e6079844652a"
+      },
+      "elapsed_sec": 9.083947658538818,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v33_m1_s1_fold0_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "b8f6813f7f0fd57a35f2b3c89f8cb903",
+        "log.txt": "a16e4fba14eb2438090deeb81cd409d5",
+        "resource.json": "9ee0117ccc188dfdb25ed790b3eb8a2c",
+        "scores.csv": "41cb126428d211857b40342b30e21594"
+      },
+      "elapsed_sec": 9.098037004470825,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v34_m1_s1_fold1_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "0bd30ada9f8a052027add3a2e9ed8b2f",
+        "log.txt": "82f9016dddaf7b0f42886407ca60addb",
+        "resource.json": "435817ee0db17dbf0d620b688c2806df",
+        "scores.csv": "85808823e8e5fe3945377cdd0b1cff97"
+      },
+      "elapsed_sec": 9.155797719955444,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v35_m1_s1_fold1_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "51ea3e070548a19f5a2bff41b04cdc93",
+        "log.txt": "8298a1214b361b56a4738758d03d492f",
+        "resource.json": "d2606810e5ac455cd5c0872cfa9ae02c",
+        "scores.csv": "553a91b5cafec1bf6d27c08c580a9859"
+      },
+      "elapsed_sec": 9.138048887252808,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v36_m1_s1_fold1_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "ad49670bd22b403898c1e5a81db48afa",
+        "log.txt": "fbc7f16356d5452d5d9f987b55c6884f",
+        "resource.json": "7748eee7e121855d0a2b39c7f3125175",
+        "scores.csv": "d4a3502c3e8dff40aeef15aca56e60eb"
+      },
+      "elapsed_sec": 9.102787494659424,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v37_m1_s1_fold2_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "bb9b52b2fb20772edb415af37cb83236",
+        "log.txt": "d4b1346a4bac64295221ff34fc00fced",
+        "resource.json": "407ebb4812df695ad6be360a134f72a7",
+        "scores.csv": "5e3660e6484489bfc31deac93e2ec657"
+      },
+      "elapsed_sec": 9.188371419906616,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v38_m1_s1_fold2_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "656451b7efd86426af67718748712f5a",
+        "log.txt": "18bb03ff81f9402fe487fce407396feb",
+        "resource.json": "9206e68bc18348d8f695f50e8c074340",
+        "scores.csv": "f76f04830c02ca816fb03f9abeb2c9f0"
+      },
+      "elapsed_sec": 9.092883348464966,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v39_m1_s1_fold2_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "06d4b76aca6d048897ac8e122a510d4f",
+        "log.txt": "6cb71a5965193d7b1d38586159511e7e",
+        "resource.json": "2537f6e01b085ebe7a3662da94b646e3",
+        "scores.csv": "ae1da1fb09a6934b14a619e99558fb99"
+      },
+      "elapsed_sec": 9.1781165599823,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v40_m1_s1_fold3_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "3f34a8f1f0565191b10dce889b5f04c9",
+        "log.txt": "d2b6becd54a4b69affaf42c988b3e557",
+        "resource.json": "3ee05bd9501946d461ca0fef18d338ef",
+        "scores.csv": "006ae2d53f7463939a44e66ceda60001"
+      },
+      "elapsed_sec": 9.181861639022827,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v41_m1_s1_fold3_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "be05b416f9914031307096732a2df453",
+        "log.txt": "bf8d7f8bd5b0cfef46c2194fe375225b",
+        "resource.json": "95e70337fd6aeb4c1b86059c2757b194",
+        "scores.csv": "44520287686a3578eb270eb63d187fb7"
+      },
+      "elapsed_sec": 9.189976215362549,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v42_m1_s1_fold3_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "2e3deab569a6cf514bfedc73cd092de2",
+        "log.txt": "32ac28da3f24471f21171f2f9171b637",
+        "resource.json": "2be6f8ae16397fd27c967672d5a4d32e",
+        "scores.csv": "937de6bd1b1f71358181eca5b3d8cae5"
+      },
+      "elapsed_sec": 9.170965433120728,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v43_m1_s2_fold0_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "9887cf4c7989f2b085a032869912da41",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "1ecde79cd544c3105e83fb525a16f18a",
+        "resource.json": "d06b11b0dd2cef1f58e4ac77403607ac",
+        "scores.csv": "61e70e189ab8d3ded6d621cfd00315ad"
+      },
+      "elapsed_sec": 18.82257080078125,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v44_m1_s2_fold0_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 1,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "9d802fec33b36cfda47d9096d923be8a",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "d619dca1b4d09554147cf62edf95cbd7",
+        "resource.json": "323ae2d0dbe7a1c2935f1c44eb91a182",
+        "scores.csv": "b60c8ac949178a5023650daccb133445"
+      },
+      "elapsed_sec": 18.820159673690796,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v45_m1_s2_fold0_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 2,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "28671ed44e246026ea551a64b2e94651",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "d4aadf6e9ae42041f3cf01a91e8736d0",
+        "resource.json": "bfdfc4e4f30031fab13ba37272681cb0",
+        "scores.csv": "13e9d5d4fc9927d77a53f5d16e89e5fe"
+      },
+      "elapsed_sec": 19.219526290893555,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v46_m1_s2_fold1_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "2e3bf5c8ed42a7820a406fc10a50ea93bfb70052",
+      "outputs": {
+        "commit.txt": "990f2376a9cd1575551e6a0086a55265",
+        "config.yaml": "4f306e590ee0377833fb1c91bca83e01",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "abf36a20cac120afe7575479d60ad46f",
+        "resource.json": "05cef675e6ff777d4cd9f6b72d8122d7",
+        "scores.csv": "af9ae7f64a38e82c099934e2cef08485"
+      },
+      "elapsed_sec": 19.788402318954468,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v47_m1_s0_fold3_seed0",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "6fb346fa463aa95b38929b948752b0be",
+        "log.txt": "a6d30879849598fe172daf2eec479142",
+        "resource.json": "a03f6248b2c21638d64bcba0ea4b22e2",
+        "scores.csv": "f2369c99fe41cda8727eea5f6165e106"
+      },
+      "elapsed_sec": 9.168114185333252,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v48_m1_s0_fold3_seed1",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "c4fc6424e3f23ae3a959c20bc008c918",
+        "log.txt": "2913217fedb5e6446fdb4174821dff71",
+        "resource.json": "406f5eb653b28de5143ef1459e0d087f",
+        "scores.csv": "88ff1966d14ba70638abbf899e4fa3c7"
+      },
+      "elapsed_sec": 9.12031626701355,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v49_m1_s0_fold3_seed2",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "0afa435f7f05c62d3b35ad0a16061de6",
+        "log.txt": "f53391b3c3bc6656d22e74a2e3b5b9df",
+        "resource.json": "ff10049442b3480926c3899f96fb09bc",
+        "scores.csv": "af4458a1b93105e4674ad15432f2aa0f"
+      },
+      "elapsed_sec": 9.070479393005371,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v50_m1_s1_fold0_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "0229c63c1186b5b637d45b5b3f73f144",
+        "log.txt": "dba95ce8ac5ac55ef7c064faf74f9c89",
+        "resource.json": "0ba10c2b201e226748cb953ac2032ed3",
+        "scores.csv": "3594c882275cd2df1435333608047747"
+      },
+      "elapsed_sec": 9.108070135116577,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v51_m1_s1_fold0_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "e07fcffdecee2db6cac3bf9549c4679e",
+        "log.txt": "fe03025424a483aca7c2da9aa9a2a0fa",
+        "resource.json": "3495662f2645409cc7a97f05861e5247",
+        "scores.csv": "cd2e32341be8e9db3f80c4fa582a961b"
+      },
+      "elapsed_sec": 9.190677404403687,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v52_m1_s1_fold0_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "f1f441f808c506e39cddbe3c2f9fca7f",
+        "log.txt": "2e6906d6d1c78669f0a508fc845e1fba",
+        "resource.json": "43bae3a86577b50856587f50aa0db167",
+        "scores.csv": "438e1aca2ce9f3acd83e1c190d0f029e"
+      },
+      "elapsed_sec": 9.141847133636475,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v53_m1_s1_fold1_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "d36169478eb38f9f80ffe7f77252b4fe",
+        "log.txt": "78947c2ab7c9df0a2763bbc58e828d3b",
+        "resource.json": "a1d7f40b9bb486d1e3037f81f971f9ac",
+        "scores.csv": "a981e4fb7564fbed06728ed469e5c841"
+      },
+      "elapsed_sec": 9.100696325302124,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v54_m1_s1_fold1_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "dc5399c71c68a8d6b3af58987d9c4c73",
+        "log.txt": "4d7f54e67524cc598ee8c762b3e659d5",
+        "resource.json": "f1d431075818638ac46d638cc1acc01b",
+        "scores.csv": "74dcc989bfd7fd4d7f60de473cdbbf66"
+      },
+      "elapsed_sec": 9.190433025360107,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v55_m1_s1_fold1_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "5e52b0b3f7b334cc51c2ded44c47c17b",
+        "log.txt": "bafbef3ece0e297f53a598e89d3ba806",
+        "resource.json": "826363c59f0ece363b4ee2afa4f293d3",
+        "scores.csv": "22a6025b8661d9c9c6104b90ed4637a6"
+      },
+      "elapsed_sec": 9.134883165359497,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v56_m1_s1_fold2_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "cc738397f1a336d76391ed87a011fd89",
+        "log.txt": "329ee09992716989aec9d40cca614de1",
+        "resource.json": "679f6bb498647533ce1ac9eb9a0ee47e",
+        "scores.csv": "74e2222084370de31153b517d29a05ab"
+      },
+      "elapsed_sec": 9.160999059677124,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v57_m1_s1_fold2_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "1dde3f396fadee788108a694fe44560c",
+        "log.txt": "6238239559e4e5cd8d6b898e5e3d58c4",
+        "resource.json": "f90388ecd4074d57ce954de6b3710b0e",
+        "scores.csv": "3844f1ae275c4ee951b01038215f9422"
+      },
+      "elapsed_sec": 9.120545387268066,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v58_m1_s1_fold2_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "25d205c3cd047d9b3508d502baac6ee5",
+        "log.txt": "f2db0c845bc836e5bb00fec94bb1af99",
+        "resource.json": "9d728b6ff83f3b99dc220629d77a9dff",
+        "scores.csv": "b7db35f98068b6b3ce5e348f9498bc60"
+      },
+      "elapsed_sec": 9.159123659133911,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v59_m1_s1_fold3_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "377c022544a02716dc082d1bb0fa7a14",
+        "log.txt": "5005e0999316ab306ed1b48b89f620f3",
+        "resource.json": "34847c9c339d81ef9c08df2e77e550ff",
+        "scores.csv": "86b98d1ea37d0db9142d01a0401a4fea"
+      },
+      "elapsed_sec": 9.089491605758667,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v60_m1_s1_fold3_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "d224bfc2fbac8adffff7e0e9e0e78582",
+        "log.txt": "d179c393393846f2ff7d37dacbc38e58",
+        "resource.json": "49ff2aba01628f94721fd769f877a777",
+        "scores.csv": "fec632496837404ef1d59dfc46c0fd22"
+      },
+      "elapsed_sec": 9.13615345954895,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v61_m1_s1_fold3_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "b86cffb3f9880c571f8b48eab5212f22",
+        "log.txt": "d29cd6d4ba1852e247c32826b869ef34",
+        "resource.json": "881053713f0af8f8346cf5c074be637c",
+        "scores.csv": "26ac75153603d53e42a23a0f20fa73ab"
+      },
+      "elapsed_sec": 9.110551834106445,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v62_m1_s2_fold0_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "fb9e261d78ffad9391abeed3cd29c535",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "0002d60b14dbdae8ec28a5590e6892b4",
+        "resource.json": "e85ffbcba25795bf4674e3b71cddd413",
+        "scores.csv": "fb392165d1909ea7f88add4b2fcb5c06"
+      },
+      "elapsed_sec": 18.73266887664795,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v63_m1_s2_fold0_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "0e6cce1f998411b212d862f71b015c32",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "b7c9776f1a518693b476078af842c7b1",
+        "resource.json": "655a13d1ea959b948da8ac9d90e9b366",
+        "scores.csv": "b4da068fdd47f0226e0130ea6f7cd3b3"
+      },
+      "elapsed_sec": 18.877251625061035,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v64_m1_s2_fold0_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "73da84bd618d16fa7e76c9fa10ecc31c",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "76ef595d03ee2aa7b0a99fa25bf58a69",
+        "resource.json": "d9eefa072aec434025a9fe91b4de608b",
+        "scores.csv": "a249fd6f9412602307bca5c2139c7ec0"
+      },
+      "elapsed_sec": 19.01103663444519,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v65_m1_s2_fold1_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "c7cddff6a48996c37307e9155d8b6f3e",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "63a2060f68c4287b6493d3cdcb7a11d3",
+        "resource.json": "80d18caf5d90033275a6cb0048c241f1",
+        "scores.csv": "3e88622c5157342518572635b727f2c3"
+      },
+      "elapsed_sec": 19.781714916229248,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v66_m1_s2_fold1_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "c6b443e4205f35fef2baf507bca4b0eb",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "d7cd834d4b22ddea9b40e2250d15238d",
+        "resource.json": "c43a6d76046947b98cc86430fa57eb22",
+        "scores.csv": "e278fadef2441d363a2a523f1cae95c2"
+      },
+      "elapsed_sec": 19.651186227798462,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v67_m1_s2_fold1_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "e381001e55508e06c9c22cfbb3247dbd",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "a89af1dc7ca970dd454504bb41b18f90",
+        "resource.json": "e029fa560b06ad7c25aa1c8bbb7e3ad9",
+        "scores.csv": "f34b4afd40916d48337bbb79a04749f5"
+      },
+      "elapsed_sec": 19.634167909622192,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v68_m1_s2_fold2_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "0812d3aae5879e7564b26126086d474c",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "2cef4cf37969ae97fdf9d12ed50f07bd",
+        "resource.json": "c65d9a2d95e34a17f0fb38d9ca655db2",
+        "scores.csv": "3ba8e4914a8a9612a21dbef8fef36afd"
+      },
+      "elapsed_sec": 20.428367376327515,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v69_m1_s2_fold2_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "bfa0500cefaabea17517487b1bce2756",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "c454cd83a33eab23d399fa130ee499bf",
+        "resource.json": "cd1f96d7468fe7a431cd70cefec549f8",
+        "scores.csv": "b85d086b2fa0426b0b34b9e8ee735c61"
+      },
+      "elapsed_sec": 20.43086814880371,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v70_m1_s2_fold2_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "0b2c404aa043925d51ec89306b9c9e2d",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "c1a32e2f8b3e8b2716809d7e00de3ad7",
+        "resource.json": "3742018514b0d4600b203a38cecbcd42",
+        "scores.csv": "45a67df932ca5b8afccb38b275446409"
+      },
+      "elapsed_sec": 20.446325063705444,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v71_m1_s2_fold3_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "fee6da8e1767aff8ac7d1ab006246628",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "7b56ebd47f64b59080dca7786e3b117f",
+        "resource.json": "73c1dee0075dabb3127682377bb70be3",
+        "scores.csv": "7b06974ee40bb501e327693ac1dedc71"
+      },
+      "elapsed_sec": 19.19394040107727,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v72_m1_s2_fold3_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 1,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "7b4058e7f0e03524e06dfa78624ea5dd",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "146d99887e004dcfb20dd1b827766ab7",
+        "resource.json": "cf55566989247f47fe156ae9cfb28ce3",
+        "scores.csv": "30dae5f8b2f68ff5202f282fc43b89bb"
+      },
+      "elapsed_sec": 20.2493314743042,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v73_m1_s2_fold3_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 2,
+      "commit": "1ec9d5b800cc43d720082408aab4288e4c10ed65",
+      "outputs": {
+        "commit.txt": "055d071db87cd4954453155f9a6d3f2b",
+        "config.yaml": "23a943c4079fefd1f00539fc2d1d2d43",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "a94c747914224a5274e3b8363548a08f",
+        "resource.json": "70bb146db4fa83d38d737e025d4b1fde",
+        "scores.csv": "c1cd3f4dba0dcbb4f1bf9a23dcd90fb8"
+      },
+      "elapsed_sec": 19.665231943130493,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v74_m1_s0_fold3_seed0",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "5135edbf79688d30238ace66b3b0887d",
+        "log.txt": "aea45225ff8770e862f687665c00def5",
+        "resource.json": "bbed874bf41f40418efa88173d56ed42",
+        "scores.csv": "a90229d7f40c3e9d34aa43a98a4cb730"
+      },
+      "elapsed_sec": 9.293357610702515,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v75_m1_s0_fold3_seed1",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "74c26e3a3d11c3c0f6e581107f4cedce",
+        "log.txt": "46d6af7e2ca1d31b880fae36afcfa3a6",
+        "resource.json": "2b09822a9b6ece4c74542092f8b46bde",
+        "scores.csv": "e4cc892835cb5c610e4f7ab0193faa2c"
+      },
+      "elapsed_sec": 9.229607820510864,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v76_m1_s0_fold3_seed2",
+      "method": "m1",
+      "split": "s0",
+      "fold": 3,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "d3156e378d5319d19e6e1121e8bb7ca6",
+        "log.txt": "92199193326b2f64224ba203ed672a7b",
+        "resource.json": "207818bd78633ab1e455ff41b678b5c3",
+        "scores.csv": "8792f9fd374990eb0c1ac8dcf754c3e9"
+      },
+      "elapsed_sec": 9.190994262695312,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v77_m1_s1_fold0_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "ba0ae6957df22120cac75baf165c3983",
+        "log.txt": "75ce800f3521db585b1c197642f38f9d",
+        "resource.json": "04cd6a601dd928bca6dc3611b57c8c6b",
+        "scores.csv": "cd518fb7be3a2be641c91197f778b2d6"
+      },
+      "elapsed_sec": 9.149096012115479,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v78_m1_s1_fold0_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "ac95d07350f0681166a6b7d666eb3e64",
+        "log.txt": "e0031a8c010552dd63b0f6b0de37815f",
+        "resource.json": "ba967cef82ec7b49bd7fb17cf671099d",
+        "scores.csv": "6ff3c9eb7beeca44576d7c26180a6150"
+      },
+      "elapsed_sec": 9.313898801803589,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v79_m1_s1_fold0_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 0,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "cdbb55ae64540577160e5ecfa2fffea7",
+        "log.txt": "7300746d505894204ca377faeb717a91",
+        "resource.json": "a7980a6cb596c13c380c71b1c41d9836",
+        "scores.csv": "b1f1aab18483732b705795f38803a880"
+      },
+      "elapsed_sec": 9.195088386535645,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v80_m1_s1_fold1_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "62d1d4897ef1cfd68e1f84b079053b44",
+        "log.txt": "385bbe9ac1837e654b40f167410bcbdb",
+        "resource.json": "2dc6c6f5f0a04715d83b0096b265d9a4",
+        "scores.csv": "aa874bda5f6e0bcafedc4df78120bc79"
+      },
+      "elapsed_sec": 9.19860553741455,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v81_m1_s1_fold1_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "557286628e2f4af6098770764b344977",
+        "log.txt": "1ddb47d088409d10a0e533aea4f255af",
+        "resource.json": "93a0390ca86e2c9a0d328096a37a2857",
+        "scores.csv": "33485acc2f035f9dd167b389357bb020"
+      },
+      "elapsed_sec": 9.740333318710327,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v82_m1_s1_fold1_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 1,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "913feed840146e0f116fba646e29b94c",
+        "log.txt": "be7dacd98d061af21309c346d8a9fe58",
+        "resource.json": "2e8e61e2c6c66394e1f584ac77fb513a",
+        "scores.csv": "daaf813f5f86339817e826443497cfce"
+      },
+      "elapsed_sec": 9.227787017822266,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v83_m1_s1_fold2_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "d49de3772a48b860ca283f0f4b4965b6",
+        "log.txt": "c9f4e4f5f45e2747fe9b3efcb1980876",
+        "resource.json": "b6c74b73623ffe7f0ad629aeec9bc142",
+        "scores.csv": "590f34f50937c7cdae83f510b1d2b29b"
+      },
+      "elapsed_sec": 9.339702844619751,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v84_m1_s1_fold2_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "070844e46b98a3f4a496119ca51ad7a0",
+        "log.txt": "c8f751497d1be7b8e20c077223a9b47e",
+        "resource.json": "eb12cea7867a7dbb7e99d39dc6b4d3ba",
+        "scores.csv": "fc7c81b3a840521e74cbdcfefe648396"
+      },
+      "elapsed_sec": 9.661526679992676,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v85_m1_s1_fold2_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 2,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "8f9565ad42639c2754fc4dfa82d6f2e7",
+        "log.txt": "d021208fcdbae3318e0be9180de231ad",
+        "resource.json": "6ce4b7d5c00a857e5c0dc792761b3335",
+        "scores.csv": "489b51ef05a25ff2142e599aca9abf35"
+      },
+      "elapsed_sec": 9.4774911403656,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v86_m1_s1_fold3_seed0",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "ab1b836c5b5eb283db613b118a8ccc45",
+        "log.txt": "61643e4dc1f66b01bd58220b0cba4bb2",
+        "resource.json": "8397814ac7237e304f606f74aea7ee46",
+        "scores.csv": "ed0a4b5a1cbb51cf2ef41fab6fe4040b"
+      },
+      "elapsed_sec": 9.559550523757935,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v87_m1_s1_fold3_seed1",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "3058487ba188c6e672f85ec510f9f6b1",
+        "log.txt": "5ebb663b4bd4e11393f6c52c639efe6c",
+        "resource.json": "c5fbe41a53cd38fe5b9cbe2a08647c4e",
+        "scores.csv": "7c2479fa11b3f3d1976b507cf26b236b"
+      },
+      "elapsed_sec": 9.510913133621216,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v88_m1_s1_fold3_seed2",
+      "method": "m1",
+      "split": "s1",
+      "fold": 3,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "d3808d7099a276d780a8f55b093c1f8e",
+        "log.txt": "8a8576da45a8e8a56a6ef9f138ddbdc6",
+        "resource.json": "bbeb97d01711d81e9012d54f96c2fa70",
+        "scores.csv": "24e42afab4309d65e418b9a2cda38c60"
+      },
+      "elapsed_sec": 9.164504766464233,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v89_m1_s2_fold0_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "f8ee33d913cc4609e63b9f239cc4a2d9",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "0a199437138f53127940b9e7625437e6",
+        "resource.json": "dcdbda3ee2af6e569e95b1e2a0915766",
+        "scores.csv": "78020c91fab813c81f430dc19a619ef1"
+      },
+      "elapsed_sec": 15.309974670410156,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v90_m1_s2_fold0_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "19e6eeda08c159b9165048f350ba52cb",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "2516577e6ddc2c428d6811597c804780",
+        "resource.json": "bd98cff15b33359e035cd1cfc4d918f7",
+        "scores.csv": "d535c947bdd64744ff77433617a60e4b"
+      },
+      "elapsed_sec": 15.317559242248535,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v91_m1_s2_fold0_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 0,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "77435d768e90eaf8674fd6b85095453f",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "71d4120e34ebe536db2e28fee0e0d1a8",
+        "resource.json": "dbbfd526d84324f6fb3a96cdc14dcf70",
+        "scores.csv": "ef0f18270a81289f79bd33b475501e6b"
+      },
+      "elapsed_sec": 15.314416408538818,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v92_m1_s2_fold1_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "85b3f6ee39dc364579610ac4232a350a",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "25902df18a58027f365299ad8583db4c",
+        "resource.json": "67da8432240cdd5a7c8f46b7dbcdd495",
+        "scores.csv": "9d7a522cac44248bc417f65b65e0e87b"
+      },
+      "elapsed_sec": 15.315796136856079,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v93_m1_s2_fold1_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "804c27641fb4c1e0b5050cc3f9d8a9ca",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "f95ba77125e500abd01d3b3edd1fbc8d",
+        "resource.json": "7abbf9207b071edcf5e718920feedb68",
+        "scores.csv": "dd897a85eb0dfb5f8f039805a9c0a5f3"
+      },
+      "elapsed_sec": 15.336530447006226,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v94_m1_s2_fold1_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 1,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "9b8630616500bc8951c77868e289ba49",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "b5e634083128baeaa36d010740f70402",
+        "resource.json": "7e280d1648a170e26fcfe6a32a66b656",
+        "scores.csv": "a20fa1a2b550e48df831563372e29a1e"
+      },
+      "elapsed_sec": 15.373551845550537,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v95_m1_s2_fold2_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "2f9e46293801c895f4a4f6c31564806c",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "2ef9bf634d2dacefc55573773475b2e2",
+        "resource.json": "b9eedf3015a9c027d6522bd9f9469149",
+        "scores.csv": "ca937b1fb03f311a11085ec61012815e"
+      },
+      "elapsed_sec": 15.304009199142456,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v96_m1_s2_fold2_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "ecf822ae2a60afe6d6c7ea64e7e62ee4",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "ebad0b6ef2f7d52533b9304bde904820",
+        "resource.json": "0cec014d912ffa68228320f6838d4f89",
+        "scores.csv": "f5748cda091557ef74ee0af9ffe9ad7c"
+      },
+      "elapsed_sec": 18.45431113243103,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v97_m1_s2_fold2_seed2",
+      "method": "m1",
+      "split": "s2",
+      "fold": 2,
+      "seed": 2,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "57956e72d51f4888eb21b6b5e1049db6",
+        "draws.json": "2acd77282adfc49054aa40caffc5ec7e",
+        "log.txt": "5bea741994c3747219bca7e9815a3b6b",
+        "resource.json": "4542d3406bf2b221133bcc86b474a864",
+        "scores.csv": "fa2c95530db616130976dae113f3f318"
+      },
+      "elapsed_sec": 15.33211874961853,
+      "gpu_mem_max_mib": 454
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v98_m1_s2_fold3_seed0",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "46e207521d9896c226c8c0013bc8c1ea",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "fcd306afada248925c53111526272668",
+        "resource.json": "42f0e065a412293fe7ebaac2cbaaad09",
+        "scores.csv": "39f1dd4e35c86c0aac022c98042e82e6"
+      },
+      "elapsed_sec": 15.412497758865356,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-02_v99_m1_s2_fold3_seed1",
+      "method": "m1",
+      "split": "s2",
+      "fold": 3,
+      "seed": 1,
+      "commit": "109311a28a28ceb0ad38a71902bb38377f120935",
+      "outputs": {
+        "commit.txt": "997c88777f5867c8db9fc2170df80225",
+        "config.yaml": "529f07c1c60ae66248a98876c974eb36",
+        "draws.json": "96d56d8ff5d7d3b686795bf6c3371e59",
+        "log.txt": "73c9de1c251d368275114b2d17a90b98",
+        "resource.json": "bfe0a2ad07156d584f403984c73d74d5",
+        "scores.csv": "bc89002e8e843407c2d11ce71dba0c1c"
+      },
+      "elapsed_sec": 15.406472206115723,
+      "gpu_mem_max_mib": 434
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v201_m4_s1_fold0_seed0",
+      "method": "m4",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "a1f589ab20a49dde4177976d7a2bd28c",
+        "log.txt": "2e1b13131b3a97355a237f247ab295b5",
+        "resource.json": "3f8384947865e4f11ba94ffb7795dfc0",
+        "scores.csv": "9d6ea8298db15e7dd43735ee54e3b634"
+      },
+      "elapsed_sec": 11872.876896858215,
+      "gpu_mem_max_mib": 6344
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v202_m4_s1_fold1_seed0",
+      "method": "m4",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "574324363f5d5858c25c95ce52a0a056",
+        "log.txt": "c2ab29d38fc3b99be7e4db1ef3cfcb27",
+        "resource.json": "34bd5ed975906ac118024dad9a2cca25",
+        "scores.csv": "b67a070ae58c8b22012f602cb21d3022"
+      },
+      "elapsed_sec": 11895.600207567215,
+      "gpu_mem_max_mib": 6344
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v203_m4_s1_fold2_seed0",
+      "method": "m4",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "3d1674e2f006079498d3f11cbbd64a77",
+        "log.txt": "535d9203a4e31feb7076a4b69f6054a5",
+        "resource.json": "46bb615929931c9086a68c26d568830d",
+        "scores.csv": "0442757975943696e4be621f584e77ad"
+      },
+      "elapsed_sec": 12206.265540361404,
+      "gpu_mem_max_mib": 6346
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v204_m4_s1_fold3_seed0",
+      "method": "m4",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "3617d382906f47db26b8a40a08c7c278",
+        "log.txt": "f55864c89af891819cd3bafa2c976a9e",
+        "resource.json": "544d0a13cfc1085bb1ba6da9ca03d45a",
+        "scores.csv": "a88e417ee6906f3a7de97e386dcce7d4"
+      },
+      "elapsed_sec": 12095.584171772003,
+      "gpu_mem_max_mib": 6344
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v221_m4_s2_fold0_seed0",
+      "method": "m4",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "6465afaff36269c7983edf144d86bd58",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "68ea7665392993e68ab37bdb552ef00c",
+        "resource.json": "aaede58e79e2bb6f500867807979be8e",
+        "scores.csv": "8a37780d62678dc7fa336efe73b97cfe"
+      },
+      "elapsed_sec": 12143.640079498291,
+      "gpu_mem_max_mib": 6352
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v222_m4_s2_fold1_seed0",
+      "method": "m4",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "50ac2906c30c06477cf2bf6d015fbe01",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "495f48a1adccb359f0492930dabe7c28",
+        "resource.json": "dd31ce055776f88eec1c6e15d7ae06d5",
+        "scores.csv": "5c2c034b81c0e4bc3e8b2b320c2bc2ad"
+      },
+      "elapsed_sec": 12034.460496664047,
+      "gpu_mem_max_mib": 6352
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v223_m4_s2_fold2_seed0",
+      "method": "m4",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "bad4cc6b2e55a7596b659c8133758d83",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "afa74a929241b738810347c52a08bb34",
+        "resource.json": "4806c4ff8fb833e8bf51cba61958b902",
+        "scores.csv": "c6e5029943e739dca4f5cf2c10f359e2"
+      },
+      "elapsed_sec": 12169.530039787292,
+      "gpu_mem_max_mib": 6352
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v224_m4_s2_fold3_seed0",
+      "method": "m4",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "38f4bacd0bd7fbbb140561c53732bc5a",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "a6d9eb620ea4443145095653ad7178a9",
+        "resource.json": "52b15374a68b849e3c4c8df543aba80c",
+        "scores.csv": "6adf8c5e993b6803372703d3ff60c044"
+      },
+      "elapsed_sec": 12257.031368494034,
+      "gpu_mem_max_mib": 6352
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v302_m5_s1_fold1_seed0",
+      "method": "m5",
+      "split": "s1",
+      "fold": 1,
+      "seed": 0,
+      "commit": "2f496c2400273fc066d7223578b1854716557bfe",
+      "outputs": {
+        "commit.txt": "360f050072be9d6d74cead885510454a",
+        "config.yaml": "29bf0eb76241892595bd4f107ee5386a",
+        "log.txt": "5a14a85e8135c469c65c1095ac0a59af",
+        "resource.json": "76529a64aa2e420634f02ce073b385da",
+        "scores.csv": "a6962c197332ddeadd3a40efe7f161f1"
+      },
+      "elapsed_sec": 2916.759533405304,
+      "gpu_mem_max_mib": 1522
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v303_m5_s1_fold2_seed0",
+      "method": "m5",
+      "split": "s1",
+      "fold": 2,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "92b3b9d6f628d0e39c821bfdcd6b1d4d",
+        "log.txt": "ebaa6ac725e054c349d36c0263d258cb",
+        "resource.json": "5c53837a863abcb0dc1b4db00220f34c",
+        "scores.csv": "5b5fbf9866f1ce9488b717defe50476e"
+      },
+      "elapsed_sec": 2963.232583284378,
+      "gpu_mem_max_mib": 1900
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v304_m5_s1_fold3_seed0",
+      "method": "m5",
+      "split": "s1",
+      "fold": 3,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "14afed8633607bd04317c618b7d72af5",
+        "log.txt": "2107c4c3451dd057b81df064fab254ac",
+        "resource.json": "5dd2a31ddb4ce698b1ab36931974fc6c",
+        "scores.csv": "c02c0f9710f6db92d73089e366abcf92"
+      },
+      "elapsed_sec": 2982.041826725006,
+      "gpu_mem_max_mib": 1898
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v311_m5_s1_fold0_seed0",
+      "method": "m5",
+      "split": "s1",
+      "fold": 0,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "f00805fd2a1b8ebe57fc5cdc75cda267",
+        "log.txt": "b53d8a283a7490ef61a7456877445ec0",
+        "resource.json": "42ed1c83e4d2baba7d20c99bf686a474",
+        "scores.csv": "29bce9abfa462f7424eef324db7b6f52"
+      },
+      "elapsed_sec": 2997.173465490341,
+      "gpu_mem_max_mib": 1898
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v323_m5_s2_fold2_seed0",
+      "method": "m5",
+      "split": "s2",
+      "fold": 2,
+      "seed": 0,
+      "commit": "2f496c2400273fc066d7223578b1854716557bfe",
+      "outputs": {
+        "commit.txt": "360f050072be9d6d74cead885510454a",
+        "config.yaml": "f9f5bfd22538207b7058f4da1739444a",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "5c7742197d21cb4574eac3c3d2862260",
+        "resource.json": "1a6560b36a00d30611571d96ed9297c6",
+        "scores.csv": "6cda832ce9deb15ca56c248541ba3aa1"
+      },
+      "elapsed_sec": 3022.2728011608124,
+      "gpu_mem_max_mib": 794
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v324_m5_s2_fold3_seed0",
+      "method": "m5",
+      "split": "s2",
+      "fold": 3,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "2b2be5264a85d447d614437018a150e7",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "2d9e0a9e4577fd946cec500eca125240",
+        "resource.json": "aea9462ec3d7ad3eb58964406f68ff06",
+        "scores.csv": "025f184e8ae7cb1edae321613cce7594"
+      },
+      "elapsed_sec": 3080.3432743549347,
+      "gpu_mem_max_mib": 1908
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v331_m5_s2_fold0_seed0",
+      "method": "m5",
+      "split": "s2",
+      "fold": 0,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "763e737fe1ba9b7f1a93232f855df89b",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "52c4bf2d498650c31466ea2feeae716a",
+        "resource.json": "8bd35ce2512d98fb0204d009747397f4",
+        "scores.csv": "5402780bcd987de0b510e43d65e72abe"
+      },
+      "elapsed_sec": 3103.9700973033905,
+      "gpu_mem_max_mib": 1908
+    },
+    {
+      "run": "results/idea67b/exp/prl_v2/round7/runs/2026-11-03_v332_m5_s2_fold1_seed0",
+      "method": "m5",
+      "split": "s2",
+      "fold": 1,
+      "seed": 0,
+      "commit": "396698802d14d236ebde56198eb9420ac68efc98",
+      "outputs": {
+        "commit.txt": "b3407fde84154895a405b927c221c682",
+        "config.yaml": "63f46a6bcaa40ce6cb8129aaeb41fb50",
+        "draws.json": "3a64e8352fcd9ed92ce279bc7c3021c9",
+        "log.txt": "bbb90d40d81317d9a6dcab6a0f88dd26",
+        "resource.json": "5551d63f76444a8b07e8531a4dae8f62",
+        "scores.csv": "d6bc431a55eb7ae60cc35ef806d52866"
+      },
+      "elapsed_sec": 3160.434464931488,
+      "gpu_mem_max_mib": 1908
+    }
+  ],
+  "aggregates": {
+    "m1": {
+      "metrics.json": "47a53854576b899db82483915b1cfe7d",
+      "per_person.csv": "b80e6c0e777e41582b7229293a9cb1b2",
+      "pooled.csv": "c668a9460652a722f1438a7047319a6f",
+      "prereg_check.json": "146335e81b191c3ed6c1a3dddee8bf8f",
+      "recovery.csv": "382b6f417cdbbea1886c509588f19106"
+    },
+    "m2": {
+      "metrics.json": "51862d218bf14487ab87f3baa20fb383",
+      "per_person.csv": "a337869b450d3f47f309111fce257417",
+      "pooled.csv": "6d80e578223f22b50efdc0aefebd2738",
+      "prereg_check.json": "7798d91e9e784e9e3ec1a1fa6d718eeb",
+      "recovery.csv": "1c6109fe978729653df1cf6af15eea81"
+    },
+    "m3p": {
+      "metrics.json": "2272c9e772c19fd95c7d81072272cdcc",
+      "per_person.csv": "130e67a10eb9609082b58768a0422b73",
+      "pooled.csv": "c698f46a0eff6796b7a740620de581d9",
+      "prereg_check.json": "c1fcf4f4e5dcd3678c9229f8631e3660",
+      "recovery.csv": "4999fd5d86c03f8391e293cfa59f59bf"
+    },
+    "m4": {
+      "metrics.json": "d5e267b0a9b69ebbb1056d06ad4ce676",
+      "per_person.csv": "7e92631d97368ddbbf61994d9577aecf",
+      "pooled.csv": "6e4ef766dfdbf175e464357d82ad0c0e",
+      "prereg_check.json": "18927ab5264f4dd2928795856fe013c9",
+      "recovery.csv": "c8acf9e00c76698482d4f373f570ab99"
+    },
+    "m5": {
+      "metrics.json": "b72bd2059c3054eb04a71e00a807f3fd",
+      "per_person.csv": "15862102594e26a55e35a946520d42bd",
+      "pooled.csv": "2061d2ed63bee9e6af4ffdba3b5201d8",
+      "prereg_check.json": "f3ea004ae98492b232444af5ef7e56e0",
+      "recovery.csv": "b7c3506c2d62b04823dcb2f9738ba3ed"
+    },
+    "summary": {
+      "m1_s0_repro.json": "072bead3789835fdc09e3de15ceb719b",
+      "prereg_check.json": "7009402a34cb81a09098f12a48be6f8b",
+      "run_selection.json": "9afd3bbb94aca26b9fb322c29e8a767d",
+      "run_selection_amend1.json": "b52ae964da9a8225e7f888f66807b174",
+      "s0_split_audit.json": "76d03c5447a636d40787d991a20c8416"
+    }
+  }
+}

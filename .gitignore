@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.pkl
+*.pt
+*.keras
+*.bak*
+runs/
+data/
+figures/out/

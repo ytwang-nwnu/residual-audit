@@ -1,0 +1,382 @@
+{
+  "H16": {
+    "per_method": {
+      "m1": true,
+      "m2": true,
+      "m3p": true
+    },
+    "n_satisfied": 3,
+    "n_methods": 3,
+    "verdict": "支持",
+    "detail": {
+      "m1": {
+        "satisfied": true,
+        "delta_auc_L": {
+          "Lunges": 0.022991590624440856,
+          "Plank": 0.006060606060606026,
+          "SQUAT": 0.059593495934959294
+        },
+        "thr": 0.05
+      },
+      "m2": {
+        "satisfied": true,
+        "delta_auc_L": {
+          "Lunges": 0.26918947933440684,
+          "Plank": 0.0714285714285714,
+          "SQUAT": 0.22317073170731705
+        },
+        "thr": 0.05
+      },
+      "m3p": {
+        "satisfied": true,
+        "delta_auc_L": {
+          "Lunges": 0.09268205403471104,
+          "Plank": 0.08730158730158732,
+          "SQUAT": 0.316260162601626
+        },
+        "thr": 0.05
+      }
+    }
+  },
+  "H17": {
+    "per_method": {
+      "m1": true,
+      "m2": false,
+      "m3p": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 3,
+    "verdict": "部分支持",
+    "detail": {
+      "m1": {
+        "satisfied": true,
+        "order": {
+          "SQUAT": 0.059593495934959294,
+          "Lunges": 0.022991590624440856,
+          "Plank": 0.006060606060606026
+        }
+      },
+      "m2": {
+        "satisfied": false,
+        "order": {
+          "SQUAT": 0.22317073170731705,
+          "Lunges": 0.26918947933440684,
+          "Plank": 0.0714285714285714
+        }
+      },
+      "m3p": {
+        "satisfied": true,
+        "order": {
+          "SQUAT": 0.316260162601626,
+          "Lunges": 0.09268205403471104,
+          "Plank": 0.08730158730158732
+        }
+      }
+    }
+  },
+  "H18": {
+    "per_method": {
+      "m1": true,
+      "m2": true,
+      "m3p": true
+    },
+    "n_satisfied": 3,
+    "n_methods": 3,
+    "verdict": "支持",
+    "detail": {
+      "m1": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "SQUAT"
+        ],
+        "recovery_k2": {
+          "SQUAT": 0.8729599969050393
+        },
+        "thr": 0.5
+      },
+      "m2": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "Plank",
+          "SQUAT"
+        ],
+        "recovery_k2": {
+          "Lunges": 0.9439381499859596,
+          "Plank": 1.1806027324731594,
+          "SQUAT": 0.9958657071282258
+        },
+        "thr": 0.5
+      },
+      "m3p": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "Plank",
+          "SQUAT"
+        ],
+        "recovery_k2": {
+          "Lunges": 0.8932768973259435,
+          "Plank": 0.8962550313908001,
+          "SQUAT": 0.9395915368926833
+        },
+        "thr": 0.5
+      }
+    }
+  },
+  "H19": {
+    "per_method": {
+      "m1": true,
+      "m2": false,
+      "m3p": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 3,
+    "verdict": "部分支持",
+    "detail": {
+      "m1": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges"
+        ],
+        "tpr_range_s1": {
+          "Lunges": 0.31507936507936507,
+          "Plank": 0.15555555555555553,
+          "SQUAT": 0.20634920634920637
+        },
+        "tpr_range_s2_all": {
+          "Lunges": 0.2166666666666667,
+          "Plank": 0.18148148148148147,
+          "SQUAT": 0.3841269841269841
+        },
+        "thr": 0.3
+      },
+      "m2": {
+        "satisfied": false,
+        "qualifying_acts": [],
+        "tpr_range_s1": {
+          "Lunges": 0.30000000000000004,
+          "Plank": 0.2212121212121213,
+          "SQUAT": 0.19047619047619047
+        },
+        "tpr_range_s2_all": {
+          "Lunges": 0.30000000000000004,
+          "Plank": 0.33333333333333337,
+          "SQUAT": 0.4285714285714286
+        },
+        "thr": 0.3
+      },
+      "m3p": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "Plank",
+          "SQUAT"
+        ],
+        "tpr_range_s1": {
+          "Lunges": 0.5166666666666667,
+          "Plank": 0.403030303030303,
+          "SQUAT": 0.41190476190476183
+        },
+        "tpr_range_s2_all": {
+          "Lunges": 0.11666666666666665,
+          "Plank": 0.29595959595959603,
+          "SQUAT": 0.3888888888888889
+        },
+        "thr": 0.3
+      }
+    }
+  },
+  "exited": {
+    "m1": false,
+    "m2": false,
+    "m3p": false
+  },
+  "methods": [
+    "m1",
+    "m2",
+    "m3p"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "seeds_per_method": {
+    "m1": [
+      0,
+      1,
+      2
+    ],
+    "m2": [
+      0
+    ],
+    "m3p": [
+      0,
+      1,
+      2
+    ]
+  },
+  "H20": {
+    "per_method": {
+      "m4": true,
+      "m5": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 2,
+    "verdict": "支持",
+    "detail": {
+      "m4": {
+        "satisfied": true,
+        "delta_auc_L": {
+          "Lunges": 0.06199677938808379,
+          "Plank": 0.02857142857142858,
+          "SQUAT": 0.13682926829268283
+        },
+        "thr": 0.05
+      },
+      "m5": {
+        "satisfied": true,
+        "delta_auc_L": {
+          "Lunges": 0.1261406333870102,
+          "Plank": 0.023376623376623384,
+          "SQUAT": 0.1634146341463414
+        },
+        "thr": 0.05
+      }
+    }
+  },
+  "H21": {
+    "per_method": {
+      "m4": true,
+      "m5": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 2,
+    "verdict": "支持",
+    "detail": {
+      "m4": {
+        "satisfied": true,
+        "order": {
+          "SQUAT": 0.13682926829268283,
+          "Lunges": 0.06199677938808379,
+          "Plank": 0.02857142857142858
+        }
+      },
+      "m5": {
+        "satisfied": true,
+        "order": {
+          "SQUAT": 0.1634146341463414,
+          "Lunges": 0.1261406333870102,
+          "Plank": 0.023376623376623384
+        }
+      }
+    }
+  },
+  "H22": {
+    "per_method": {
+      "m4": true,
+      "m5": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 2,
+    "verdict": "支持",
+    "detail": {
+      "m4": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "SQUAT"
+        ],
+        "recovery_k2": {
+          "Lunges": 0.8291396195337126,
+          "SQUAT": 0.9744821339413028
+        },
+        "thr": 0.5
+      },
+      "m5": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "SQUAT"
+        ],
+        "recovery_k2": {
+          "Lunges": 0.9373081527775101,
+          "SQUAT": 0.9831702874687428
+        },
+        "thr": 0.5
+      }
+    }
+  },
+  "H23": {
+    "per_method": {
+      "m4": true,
+      "m5": true
+    },
+    "n_satisfied": 2,
+    "n_methods": 2,
+    "verdict": "支持",
+    "detail": {
+      "m4": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "Plank",
+          "SQUAT"
+        ],
+        "fpr_range_s1": {
+          "Lunges": 0.5833333333333334,
+          "Plank": 0.42857142857142855,
+          "SQUAT": 1.0
+        },
+        "fpr_range_s2_all": {
+          "Lunges": 0.09090909090909091,
+          "Plank": 0.14285714285714285,
+          "SQUAT": 0.1
+        },
+        "thr": 0.3
+      },
+      "m5": {
+        "satisfied": true,
+        "qualifying_acts": [
+          "Lunges",
+          "Plank",
+          "SQUAT"
+        ],
+        "fpr_range_s1": {
+          "Lunges": 0.4166666666666667,
+          "Plank": 0.5714285714285714,
+          "SQUAT": 1.0
+        },
+        "fpr_range_s2_all": {
+          "Lunges": 0.09090909090909091,
+          "Plank": 0.14285714285714285,
+          "SQUAT": 0.1
+        },
+        "thr": 0.3
+      }
+    }
+  },
+  "amend1": {
+    "methods": [
+      "m4",
+      "m5"
+    ],
+    "exited": {
+      "m4": false,
+      "m5": false
+    },
+    "seeds": [
+      0
+    ],
+    "seeds_per_method": {
+      "m4": [
+        0
+      ],
+      "m5": [
+        0
+      ]
+    },
+    "note": "H20-H23 per PREREG_R7_amend1, judged over m4/m5 only; H23 uses the false-alarm-rate range (H19 used the detection-rate range). H16-H19 above keep the PREREG_R7 method set and are unchanged."
+  }
+}

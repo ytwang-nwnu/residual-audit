@@ -1,0 +1,10 @@
+code_root: /data1/users/yangrui/projects/idea67b/experiment/code/prl_v2/round7
+data_pickle: /data1/users/yangrui/projects/idea67b/experiment/code/zhao22/data/EC3D/data_3D.pickle
+results_root: /data1/users/yangrui/results/idea67b/exp/prl_v2/round7
+third_party:
+  zhao22: /data1/users/yangrui/projects/idea67b/experiment/code/zhao22
+  zhao22_upstream: /data1/users/yangrui/projects/idea67b/third_party/zhao22
+  stgcn_rehab: /data1/users/yangrui/projects/idea67b/third_party/stgcn_rehab
+  exechecker: /data1/users/yangrui/projects/idea67b/third_party/exechecker
+  rehabexer: /data1/users/yangrui/projects/idea67b/third_party/rehabexer
+  deeprehabpile: /data1/users/yangrui/projects/idea67b/third_party/deeprehabpile

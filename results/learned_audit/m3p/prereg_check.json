@@ -1,0 +1,84 @@
+{
+  "exited": false,
+  "s2all_auc": {
+    "Lunges": 0.9863123993558777,
+    "Plank": 0.9753246753246754,
+    "SQUAT": 0.9671544715447155
+  },
+  "H16": {
+    "satisfied": true,
+    "delta_auc_L": {
+      "Lunges": 0.09268205403471104,
+      "Plank": 0.08730158730158732,
+      "SQUAT": 0.316260162601626
+    },
+    "thr": 0.05
+  },
+  "H17": {
+    "satisfied": true,
+    "order": {
+      "SQUAT": 0.316260162601626,
+      "Lunges": 0.09268205403471104,
+      "Plank": 0.08730158730158732
+    }
+  },
+  "H18": {
+    "satisfied": true,
+    "qualifying_acts": [
+      "Lunges",
+      "Plank",
+      "SQUAT"
+    ],
+    "recovery_k2": {
+      "Lunges": 0.8932768973259435,
+      "Plank": 0.8962550313908001,
+      "SQUAT": 0.9395915368926833
+    },
+    "thr": 0.5
+  },
+  "H19": {
+    "satisfied": true,
+    "qualifying_acts": [
+      "Lunges",
+      "Plank",
+      "SQUAT"
+    ],
+    "tpr_range_s1": {
+      "Lunges": 0.5166666666666667,
+      "Plank": 0.403030303030303,
+      "SQUAT": 0.41190476190476183
+    },
+    "tpr_range_s2_all": {
+      "Lunges": 0.11666666666666665,
+      "Plank": 0.29595959595959603,
+      "SQUAT": 0.3888888888888889
+    },
+    "thr": 0.3
+  },
+  "runs_used": [
+    "2026-11-02_v01_m3p_s1_fold0_seed0",
+    "2026-11-02_v02_m3p_s1_fold0_seed1",
+    "2026-11-02_v03_m3p_s1_fold0_seed2",
+    "2026-11-02_v04_m3p_s1_fold1_seed0",
+    "2026-11-02_v05_m3p_s1_fold1_seed1",
+    "2026-11-02_v06_m3p_s1_fold1_seed2",
+    "2026-11-02_v07_m3p_s1_fold2_seed0",
+    "2026-11-02_v08_m3p_s1_fold2_seed1",
+    "2026-11-02_v09_m3p_s1_fold2_seed2",
+    "2026-11-02_v10_m3p_s1_fold3_seed0",
+    "2026-11-02_v11_m3p_s1_fold3_seed1",
+    "2026-11-02_v12_m3p_s1_fold3_seed2",
+    "2026-11-02_v13_m3p_s2_fold0_seed0",
+    "2026-11-02_v14_m3p_s2_fold0_seed1",
+    "2026-11-02_v15_m3p_s2_fold0_seed2",
+    "2026-11-02_v16_m3p_s2_fold1_seed0",
+    "2026-11-02_v17_m3p_s2_fold1_seed1",
+    "2026-11-02_v18_m3p_s2_fold1_seed2",
+    "2026-11-02_v19_m3p_s2_fold2_seed0",
+    "2026-11-02_v20_m3p_s2_fold2_seed1",
+    "2026-11-02_v21_m3p_s2_fold2_seed2",
+    "2026-11-02_v22_m3p_s2_fold3_seed0",
+    "2026-11-02_v23_m3p_s2_fold3_seed1",
+    "2026-11-02_v24_m3p_s2_fold3_seed2"
+  ]
+}

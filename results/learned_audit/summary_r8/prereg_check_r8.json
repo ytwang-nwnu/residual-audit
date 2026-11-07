@@ -1,0 +1,25 @@
+{
+  "methods_done": [
+    "m1",
+    "m3p",
+    "m4",
+    "m5"
+  ],
+  "n_failing_cells": 8,
+  "H24": "支持",
+  "H24_cells_ok": 8,
+  "H25_training_centring_contributes": {
+    "m5": true,
+    "m1": false,
+    "m4": false,
+    "m3p": true
+  },
+  "H26": "支持",
+  "H26_cells_ok": 8,
+  "H27_actions_with_dS4_below_dS2": {
+    "m5": 1,
+    "m1": 2,
+    "m4": 1,
+    "m3p": 2
+  }
+}

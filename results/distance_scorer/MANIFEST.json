@@ -1,0 +1,237 @@
+{
+  "experiments": [
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e1.py",
+      "script_md5": "c4a34e28590a38eea787e7c72dce6f2f",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/alignment.json",
+          "md5": "f27b22fe31ef7f052e84df7431115d76"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/selfcheck.json",
+          "md5": "c02c92afc99f9f0a81af4efe4c07b4d0"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/scores_long.csv",
+          "md5": "19149e000e8927d7a9cbce329c9a9c8c"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/per_person.csv",
+          "md5": "33b2d6a10c571f9e3eebbfd74b8126b9"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/pooled.csv",
+          "md5": "948d51e3dd2593e52b027f0554dbd28e"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/prereg_check.json",
+          "md5": "a6c33a0cb9c18ec3827094d7ca4e8036"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/rho_realign.csv",
+          "md5": "03ad05e4a11c444cd715c7793087563b"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1/aligned_pos.npz",
+          "md5": "925ae2cbc99e486ddeb898fd2d7a5a8d"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:24:10",
+      "end": "2026-10-01T22:24:43",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e3.py",
+      "script_md5": "ac8acb3f8d3481a630fc3773ce134c23",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e3/selfcheck.json",
+          "md5": "8fda245217a797eac64f7b8bb19d4df4"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e3/ratios.csv",
+          "md5": "4b767f27dce11a9e874d84605f13e0b6"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e3/prereg_check.json",
+          "md5": "8730e1676be62130d76433c565a8db5e"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:29:03",
+      "end": "2026-10-01T22:29:20",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e4.py",
+      "script_md5": "99cfd1d53bf4e5c38941544e022c22cf",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/energies.csv",
+          "md5": "48be87f034b072c181513f87da5f7950"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/selfcheck.json",
+          "md5": "80ec51d6775efe6150faf5069290c0ab"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/k_person.csv",
+          "md5": "81f7bad1e85e5b8decefeb3ad53b07c7"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/k_median.csv",
+          "md5": "95ad17feeb0a73277eb9885f613d6599"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/k_ratios.csv",
+          "md5": "6c132b0e5a66a378c24edc7cecbf2353"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e4/prereg_check.json",
+          "md5": "3394e22564893c6fc5e2fd2a4853d544"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:30:50",
+      "end": "2026-10-01T22:30:53",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e2.py",
+      "script_md5": "3f302ad83d97f34aee3cafcd756ca7c9",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/flip_cross.csv",
+          "md5": "7017f295f006f0ae56ef98038d26dd2b"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/flip_cross_person.csv",
+          "md5": "d37715b04d2c6f1401fd3d72454d1380"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/baseline_reps.csv",
+          "md5": "6020b37655a2c0b03b4e2c0d10531352"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/baseline_summary.csv",
+          "md5": "18e7824397506a8dcdcdb723b7951f95"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/detection_insample.csv",
+          "md5": "fa8708fe759256c198c79cb6a58f1f9f"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e2/baseline_insample.csv",
+          "md5": "c14c45980de4512a270fab820fe35cfc"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:33:01",
+      "end": "2026-10-01T22:33:03",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e5.py",
+      "script_md5": "456b1bf2a856c2ed33a8c44d06eec6fe",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/original_blocked.json",
+          "md5": "1e5502a71d080ac2e9916879adb870e5"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/per_rep.csv",
+          "md5": "fd80df7ebd38df06d9183796d4783b0c"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/floors.json",
+          "md5": "20ffb053c7a24d9f8b3c33047f803cd0"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/summary.csv",
+          "md5": "0416bc20d05492bb71d79f5c49161f0f"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/excluded.csv",
+          "md5": "1c610a9a3c97f32056672e166cc2add8"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/prediction.csv",
+          "md5": "717822f1bcb56f822151de810ad9fa41"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e5/prereg_check.json",
+          "md5": "33c114af28fac340f68b10adb8e78e38"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:33:12",
+      "end": "2026-10-01T22:33:57",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/run_e1b.py",
+      "script_md5": "e1eb821fd1c531664eecd9f3f207dbc6",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1b/per_person.csv",
+          "md5": "19c0d9d3970b88d5f7a61e68182db859"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1b/curve.csv",
+          "md5": "96aa278e16ab258a0654bc55114bdbc2"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/e1b/min_detectable.csv",
+          "md5": "49ba1aef61479f1026add8d89b4592e6"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T22:34:46",
+      "end": "2026-10-01T22:34:54",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    },
+    {
+      "script": "/data/yangrui/idea67b/code/prl_v2/make_figs.py",
+      "script_md5": "56cff0a57ef8d6903339ca1b3139d96c",
+      "outputs": [
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/gaitex_person.csv",
+          "md5": "c070480d712560e580234a2e3640b0c3"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/rho_delta.csv",
+          "md5": "2230f3ec2a14c1d88bae68d6fe2d5f61"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/rho_delta.svg",
+          "md5": "a5610bd0f73df6f00bd3a4d31c0098a2"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/rho_delta.png",
+          "md5": "81b21e26225626498cd569f223e8f6c5"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/gaitex_fpr.svg",
+          "md5": "466c511a1c6ea6c37410d5a431db072b"
+        },
+        {
+          "path": "/data/yangrui/idea67b/exp/prl_v2/figs/gaitex_fpr.png",
+          "md5": "1e231dcb2c716090ca55c37fd568a73b"
+        }
+      ],
+      "seed": 0,
+      "start": "2026-10-01T23:25:41",
+      "end": "2026-10-01T23:25:42",
+      "python": "3.12.12 (main, Oct 14 2025, 21:25:31) [Clang 20.1.4 ]",
+      "numpy": "2.5.3"
+    }
+  ]
+}

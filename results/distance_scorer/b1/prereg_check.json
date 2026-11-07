@@ -1,0 +1,10 @@
+{
+  "H31": "支持",
+  "H32": "部分支持",
+  "H33": "部分支持",
+  "H33_sign_all_positive": true,
+  "H33_persons_preserving_rho_order": 2,
+  "B": 2000,
+  "seed": 0,
+  "note": "bootstrap resamples persons' frozen score vectors; references/thresholds not re-estimated"
+}
