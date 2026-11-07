@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or these preregistration files, please cite the paper below."
+title: "Residual Audit for Follow-Along Motion Feedback: code and preregistration"
+authors:
+  - family-names: Wang
+    given-names: Yitong
+  - family-names: Jiao
+    given-names: Mingzhi
+  - family-names: Wei
+    given-names: Zichen
+  - family-names: Zhou
+    given-names: Kaihan
+  - family-names: Yang
+    given-names: Rui
+  - family-names: Peng
+    given-names: Hong
+repository-code: "https://github.com/ytwang-nwnu/residual-audit"
+license: MIT
+version: v1.0-submission
+date-released: 2026-11-07
+preferred-citation:
+  type: article
+  title: "Residual Audit for Follow-Along Motion Feedback: Individual Differences, Error-Detection Failures, and Personal Calibration"
+  authors:
+    - family-names: Wang
+      given-names: Yitong
+    - family-names: Jiao
+      given-names: Mingzhi
+    - family-names: Wei
+      given-names: Zichen
+    - family-names: Zhou
+      given-names: Kaihan
+    - family-names: Yang
+      given-names: Rui
+    - family-names: Peng
+      given-names: Hong
+  journal: "IEEE Transactions on Computational Social Systems"
+  year: 2026
+  notes: "submitted"
